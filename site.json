@@ -1,0 +1,765 @@
+{
+  "dir": "virtual-account-manager",
+  "domain": "virtualaccountmanager.com",
+  "brand": "Virtual Account Manager",
+  "short": "Virtual Account Manager",
+  "variant": "portfolio",
+  "colors": [
+    "#54244f",
+    "#fff6e8",
+    "#ef6a62",
+    "#b8a0df"
+  ],
+  "fontDisplay": "Palatino",
+  "fontBody": "Avenir",
+  "hero": "exec-f76298b4-d307-4fa2-b3c3-2fc38df8c6c0.png",
+  "mark": "orbit",
+  "eyebrow": "Relationship portfolio studio",
+  "headline": "Give every customer relationship a thoughtful plan and a visible next step.",
+  "intro": "Remote account management support for customer coordination, renewal planning, meeting preparation, and relationship records. Your leaders keep commercial decisions, commitments, and sensitive negotiations.",
+  "audience": "client service teams, agencies, and B2B customer leaders",
+  "noun": "account",
+  "plural": "customer accounts",
+  "disclaimer": "Support staff work from your approved playbooks. They do not guarantee retention, revenue, renewal, customer satisfaction, or response times.",
+  "services": [
+    [
+      "Account planning support",
+      "Maintain account plans, priorities, stakeholder maps, and agreed follow-up actions."
+    ],
+    [
+      "Renewal coordination",
+      "Track renewal milestones, prepare approved materials, and surface ownership gaps."
+    ],
+    [
+      "Customer meeting support",
+      "Prepare agendas, organize notes, and convert approved outcomes into clear actions."
+    ],
+    [
+      "Relationship record management",
+      "Keep stakeholder details, preferences, risks, and contact history organized."
+    ],
+    [
+      "Customer request coordination",
+      "Route requests, maintain status visibility, and close the loop using approved messages."
+    ],
+    [
+      "Portfolio review support",
+      "Prepare account review views that help leaders prioritize attention and decisions."
+    ],
+    [
+      "Expansion signal support",
+      "Document customer needs and route qualified opportunities without promising outcomes."
+    ]
+  ],
+  "blog": [
+    [
+      "account-management-workflow",
+      "Account management workflow: a practical portfolio guide",
+      "Account planning",
+      "A clear operating rhythm for customer priorities, conversations, risks, and next steps."
+    ],
+    [
+      "renewal-planning-calendar",
+      "How to build a useful renewal planning calendar",
+      "Renewals",
+      "A milestone-based approach to preparation, decision ownership, and customer coordination."
+    ],
+    [
+      "fractional-customer-success-leader-vs-account-manager-va",
+      "Fractional customer success leader vs account manager VA",
+      "Role comparisons",
+      "A practical comparison of strategic leadership and hands-on relationship coordination."
+    ],
+    [
+      "customer-meeting-follow-up",
+      "Customer meeting follow-up that keeps commitments visible",
+      "Communication",
+      "A repeatable method for notes, decisions, owners, and customer-ready updates."
+    ],
+    [
+      "account-portfolio-review",
+      "Account portfolio review for focused relationship planning",
+      "Portfolio operations",
+      "A structured review that helps teams decide where attention and preparation belong."
+    ]
+  ],
+  "clusters": {
+    "Account planning": [
+      "account plan completeness",
+      "stakeholder map quality",
+      "account objective review",
+      "relationship risk register",
+      "next action visibility"
+    ],
+    "Renewal operations": [
+      "renewal milestone map",
+      "renewal preparation quality",
+      "decision owner coverage",
+      "renewal risk review",
+      "contract handoff support"
+    ],
+    "Customer communication": [
+      "meeting agenda readiness",
+      "follow-up action quality",
+      "customer request routing",
+      "communication log completeness",
+      "executive briefing support"
+    ],
+    "Portfolio management": [
+      "portfolio review rhythm",
+      "account segmentation inputs",
+      "relationship health evidence",
+      "priority queue design",
+      "portfolio handoff quality"
+    ]
+  },
+  "source": "https://www.ftc.gov/business-guidance",
+  "bookingUrl": "https://go.oncehub.com/StealthAgentsTeam?brdr=1pxd8d8d8&dt=&em=1&Si=1",
+  "research": [
+    {
+      "slug": "account-plan-completeness",
+      "title": "Account plan completeness research brief",
+      "cluster": "Account planning",
+      "topic": "account plan completeness",
+      "publishedAt": "2026-09-02",
+      "sourceCount": 11,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for account plan completeness.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make account plan completeness easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "stakeholder-map-quality",
+      "title": "Stakeholder map quality research brief",
+      "cluster": "Account planning",
+      "topic": "stakeholder map quality",
+      "publishedAt": "2026-09-03",
+      "sourceCount": 12,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for stakeholder map quality.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make stakeholder map quality easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "account-objective-review",
+      "title": "Account objective review research brief",
+      "cluster": "Account planning",
+      "topic": "account objective review",
+      "publishedAt": "2026-09-04",
+      "sourceCount": 13,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for account objective review.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "13 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make account objective review easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "relationship-risk-register",
+      "title": "Relationship risk register research brief",
+      "cluster": "Account planning",
+      "topic": "relationship risk register",
+      "publishedAt": "2026-09-05",
+      "sourceCount": 14,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for relationship risk register.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "14 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make relationship risk register easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "next-action-visibility",
+      "title": "Next action visibility research brief",
+      "cluster": "Account planning",
+      "topic": "next action visibility",
+      "publishedAt": "2026-09-06",
+      "sourceCount": 15,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for next action visibility.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "15 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make next action visibility easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "renewal-milestone-map",
+      "title": "Renewal milestone map research brief",
+      "cluster": "Renewal operations",
+      "topic": "renewal milestone map",
+      "publishedAt": "2026-09-07",
+      "sourceCount": 10,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for renewal milestone map.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "10 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make renewal milestone map easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "renewal-preparation-quality",
+      "title": "Renewal preparation quality research brief",
+      "cluster": "Renewal operations",
+      "topic": "renewal preparation quality",
+      "publishedAt": "2026-09-08",
+      "sourceCount": 11,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for renewal preparation quality.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make renewal preparation quality easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "decision-owner-coverage",
+      "title": "Decision owner coverage research brief",
+      "cluster": "Renewal operations",
+      "topic": "decision owner coverage",
+      "publishedAt": "2026-09-09",
+      "sourceCount": 12,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for decision owner coverage.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make decision owner coverage easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "renewal-risk-review",
+      "title": "Renewal risk review research brief",
+      "cluster": "Renewal operations",
+      "topic": "renewal risk review",
+      "publishedAt": "2026-09-10",
+      "sourceCount": 13,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for renewal risk review.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "13 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make renewal risk review easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "contract-handoff-support",
+      "title": "Contract handoff support research brief",
+      "cluster": "Renewal operations",
+      "topic": "contract handoff support",
+      "publishedAt": "2026-09-11",
+      "sourceCount": 14,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for contract handoff support.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "14 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make contract handoff support easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "meeting-agenda-readiness",
+      "title": "Meeting agenda readiness research brief",
+      "cluster": "Customer communication",
+      "topic": "meeting agenda readiness",
+      "publishedAt": "2026-09-12",
+      "sourceCount": 15,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for meeting agenda readiness.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "15 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make meeting agenda readiness easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "follow-up-action-quality",
+      "title": "Follow-up action quality research brief",
+      "cluster": "Customer communication",
+      "topic": "follow-up action quality",
+      "publishedAt": "2026-09-13",
+      "sourceCount": 10,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for follow-up action quality.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "10 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make follow-up action quality easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "customer-request-routing",
+      "title": "Customer request routing research brief",
+      "cluster": "Customer communication",
+      "topic": "customer request routing",
+      "publishedAt": "2026-09-14",
+      "sourceCount": 11,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for customer request routing.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make customer request routing easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "communication-log-completeness",
+      "title": "Communication log completeness research brief",
+      "cluster": "Customer communication",
+      "topic": "communication log completeness",
+      "publishedAt": "2026-09-15",
+      "sourceCount": 12,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for communication log completeness.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make communication log completeness easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "executive-briefing-support",
+      "title": "Executive briefing support research brief",
+      "cluster": "Customer communication",
+      "topic": "executive briefing support",
+      "publishedAt": "2026-09-16",
+      "sourceCount": 13,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for executive briefing support.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "13 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make executive briefing support easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "portfolio-review-rhythm",
+      "title": "Portfolio review rhythm research brief",
+      "cluster": "Portfolio management",
+      "topic": "portfolio review rhythm",
+      "publishedAt": "2026-09-17",
+      "sourceCount": 14,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for portfolio review rhythm.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "14 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make portfolio review rhythm easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "account-segmentation-inputs",
+      "title": "Account segmentation inputs research brief",
+      "cluster": "Portfolio management",
+      "topic": "account segmentation inputs",
+      "publishedAt": "2026-09-18",
+      "sourceCount": 15,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for account segmentation inputs.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "15 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make account segmentation inputs easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "relationship-health-evidence",
+      "title": "Relationship health evidence research brief",
+      "cluster": "Portfolio management",
+      "topic": "relationship health evidence",
+      "publishedAt": "2026-09-19",
+      "sourceCount": 10,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for relationship health evidence.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "10 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make relationship health evidence easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "priority-queue-design",
+      "title": "Priority queue design research brief",
+      "cluster": "Portfolio management",
+      "topic": "priority queue design",
+      "publishedAt": "2026-09-20",
+      "sourceCount": 11,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for priority queue design.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "11 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make priority queue design easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    },
+    {
+      "slug": "portfolio-handoff-quality",
+      "title": "Portfolio handoff quality research brief",
+      "cluster": "Portfolio management",
+      "topic": "portfolio handoff quality",
+      "publishedAt": "2026-09-21",
+      "sourceCount": 12,
+      "excerpt": "A transparent account operations brief that maps five observable workflow indicators for portfolio handoff quality.",
+      "keyStats": [
+        "5 workflow checkpoints mapped",
+        "4 operating questions answered",
+        "12 primary references reviewed"
+      ],
+      "sections": [
+        [
+          "What this brief measures",
+          "Virtual Account Manager reviewed the visible control points that make portfolio handoff quality easier to inspect. The count describes the framework on this page, not an industry-wide performance claim."
+        ],
+        [
+          "The five-point observation set",
+          "The review looks at ownership, input readiness, exception visibility, decision routing, and completion evidence. Each point can be checked directly in a working process without relying on a promised outcome."
+        ],
+        [
+          "How teams can use the findings",
+          "Use the five points as a discussion guide during a weekly workflow review. Record what is present, what is missing, and which qualified owner must make the next decision."
+        ],
+        [
+          "Method and limits",
+          "This is editorial workflow research based on a documented five-point rubric and public guidance. It is not a clinical, legal, tax, audit, lending, fiduciary, or financial conclusion."
+        ]
+      ]
+    }
+  ],
+  "legal": {
+    "privacy": "We collect information you choose to submit through our contact form. We use it to respond to your request and operate the consultation workflow. We do not publish submitted information. Infrastructure providers may process data needed to deliver the site and booking experience.",
+    "terms": "This website provides information about administrative support services for client service teams, agencies, and B2B customer leaders. Content is general information and is not professional advice. Service scope, responsibilities, and commercial terms are discussed privately before any engagement.",
+    "accessibility": "We aim to provide a clear, keyboard-friendly, responsive experience. If you encounter a barrier, email our team so we can help and improve the page."
+  }
+}
