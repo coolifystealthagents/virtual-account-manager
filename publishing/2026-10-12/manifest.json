@@ -1,0 +1,179 @@
+{
+  "site": "VirtualAccountManager.com",
+  "canonicalDomain": "https://virtualaccountmanager.com",
+  "repository": "coolifystealthagents/virtual-account-manager",
+  "branch": "main",
+  "date": "2026-10-12",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "articles": [
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Build a Customer Commitment Register That Teams Trust",
+      "slug": "customer-commitment-register",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/customer-commitment-register.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Map Renewal Dependencies Before the Calendar Gets Tight",
+      "slug": "renewal-dependency-map",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/renewal-dependency-map.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Create a Multi-Threaded Stakeholder Map Without Guesswork",
+      "slug": "multi-threaded-stakeholder-map",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/multi-threaded-stakeholder-map.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Prepare an Executive Business Review Evidence Pack",
+      "slug": "executive-business-review-evidence-pack",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/executive-business-review-evidence-pack.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Design Customer Request Triage Lanes With Clear Boundaries",
+      "slug": "customer-request-triage-lanes",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/customer-request-triage-lanes.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Maintain an Account Risk Signal Log Without Scoring Theater",
+      "slug": "account-risk-signal-log",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/account-risk-signal-log.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Keep a Customer Decision History That Survives Handoffs",
+      "slug": "customer-decision-history",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/customer-decision-history.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Reconstruct an Account Before Accepting a Handoff",
+      "slug": "account-handoff-reconstruction",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/account-handoff-reconstruction.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Turn Voice-of-Customer Notes Into an Evidence Ledger",
+      "slug": "voice-of-customer-evidence-ledger",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/voice-of-customer-evidence-ledger.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Run an Account Contact Change Protocol",
+      "slug": "account-contact-change-protocol",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/account-contact-change-protocol.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Coordinate Service Credit Requests Without Overstepping Authority",
+      "slug": "service-credit-coordination-workflow",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/service-credit-coordination-workflow.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Blog",
+      "title": "Build a Portfolio Attention Queue From Verifiable Triggers",
+      "slug": "portfolio-attention-queue",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/portfolio-attention-queue.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Research",
+      "title": "A Renewal Readiness Evidence Model for Account Portfolios",
+      "slug": "renewal-readiness-evidence-model",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/renewal-readiness-evidence-model.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Research",
+      "title": "Stakeholder Continuity Controls in Managed Accounts",
+      "slug": "stakeholder-continuity-control-study",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/stakeholder-continuity-control-study.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Research",
+      "title": "Measuring Customer Request Aging Without Hiding Handoffs",
+      "slug": "customer-request-aging-measurement",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/customer-request-aging-measurement.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Research",
+      "title": "Auditing Closure Evidence for Customer Meeting Commitments",
+      "slug": "meeting-commitment-closure-audit",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/meeting-commitment-closure-audit.svg",
+      "publicationDate": "2026-10-12"
+    },
+    {
+      "site": "VirtualAccountManager.com",
+      "section": "Research",
+      "title": "A Governance Review for Account Portfolio Segmentation",
+      "slug": "portfolio-segmentation-governance-review",
+      "sourcePath": "lib/october12.ts",
+      "thumbnailPath": "public/thumbnails/october-12/portfolio-segmentation-governance-review.svg",
+      "publicationDate": "2026-10-12"
+    }
+  ],
+  "systems": {
+    "blog": {
+      "registry": "lib/october12-blog.ts",
+      "index": "app/blog/page.tsx",
+      "route": "app/blog/[slug]/page.tsx"
+    },
+    "research": {
+      "registry": "lib/october12-research.ts",
+      "index": "app/research/page.tsx",
+      "route": "app/research/[slug]/page.tsx"
+    }
+  }
+}
