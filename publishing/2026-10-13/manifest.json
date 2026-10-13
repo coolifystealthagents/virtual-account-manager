@@ -1,0 +1,180 @@
+{
+  "site": "VirtualAccountManager.com",
+  "canonicalDomain": "https://virtualaccountmanager.com",
+  "repository": "coolifystealthagents/virtual-account-manager",
+  "branch": "main",
+  "baseSha": "9e6ff817068ecfc9e19247f90f99e84dfe127472",
+  "publicationDate": "2026-10-13",
+  "counts": {
+    "blog": 12,
+    "research": 5,
+    "total": 17
+  },
+  "systems": {
+    "blog": {
+      "registry": "lib/october13-blog.ts",
+      "index": "app/blog/page.tsx",
+      "route": "app/blog/[slug]/page.tsx"
+    },
+    "research": {
+      "registry": "lib/october13-research.ts",
+      "index": "app/research/page.tsx",
+      "route": "app/research/[slug]/page.tsx"
+    }
+  },
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "customer-meeting-agenda-decision-gates",
+      "title": "Build Customer Meeting Agendas Around Decision Gates",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/customer-meeting-agenda-decision-gates.svg",
+      "route": "/blog/customer-meeting-agenda-decision-gates",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "champion-transition-briefing",
+      "title": "Prepare a Customer Champion Transition Briefing",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/champion-transition-briefing.svg",
+      "route": "/blog/champion-transition-briefing",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "usage-anomaly-verification",
+      "title": "Verify Product Usage Anomalies Before Escalating an Account",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/usage-anomaly-verification.svg",
+      "route": "/blog/usage-anomaly-verification",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "contract-entitlement-question-register",
+      "title": "Maintain a Contract Entitlement Question Register",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/contract-entitlement-question-register.svg",
+      "route": "/blog/contract-entitlement-question-register",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "customer-escalation-communication-cadence",
+      "title": "Set a Customer Escalation Communication Cadence",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/customer-escalation-communication-cadence.svg",
+      "route": "/blog/customer-escalation-communication-cadence",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "cross-functional-account-action-matrix",
+      "title": "Create a Cross-Functional Account Action Matrix",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/cross-functional-account-action-matrix.svg",
+      "route": "/blog/cross-functional-account-action-matrix",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "reference-request-consent-workflow",
+      "title": "Coordinate Customer Reference Requests With Explicit Consent",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/reference-request-consent-workflow.svg",
+      "route": "/blog/reference-request-consent-workflow",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "success-plan-assumption-log",
+      "title": "Keep an Assumption Log Inside the Customer Success Plan",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/success-plan-assumption-log.svg",
+      "route": "/blog/success-plan-assumption-log",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "customer-data-access-request-routing",
+      "title": "Route Customer Data Access Requests Without Exposing Records",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/customer-data-access-request-routing.svg",
+      "route": "/blog/customer-data-access-request-routing",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "product-adoption-milestone-evidence",
+      "title": "Define Product Adoption Milestones With Verifiable Evidence",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/product-adoption-milestone-evidence.svg",
+      "route": "/blog/product-adoption-milestone-evidence",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "invoice-dispute-coordination-packet",
+      "title": "Assemble an Invoice Dispute Coordination Packet",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/invoice-dispute-coordination-packet.svg",
+      "route": "/blog/invoice-dispute-coordination-packet",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-closure-knowledge-archive",
+      "title": "Create a Controlled Knowledge Archive When an Account Closes",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/account-closure-knowledge-archive.svg",
+      "route": "/blog/account-closure-knowledge-archive",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "account-meeting-decision-latency-study",
+      "title": "Measuring Decision Latency After Customer Meetings",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/account-meeting-decision-latency-study.svg",
+      "route": "/research/account-meeting-decision-latency-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "stakeholder-coverage-fragility-study",
+      "title": "Studying Fragility in Account Stakeholder Coverage",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/stakeholder-coverage-fragility-study.svg",
+      "route": "/research/stakeholder-coverage-fragility-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "commitment-due-date-revision-study",
+      "title": "Analyzing Due-Date Revisions in Customer Commitments",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/commitment-due-date-revision-study.svg",
+      "route": "/research/commitment-due-date-revision-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "customer-escalation-handoff-loss-study",
+      "title": "Observing Information Loss Across Customer Escalation Handoffs",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/customer-escalation-handoff-loss-study.svg",
+      "route": "/research/customer-escalation-handoff-loss-study",
+      "publicationDate": "2026-10-13"
+    },
+    {
+      "section": "Research",
+      "slug": "portfolio-workload-allocation-governance",
+      "title": "A Governance Review of Account Portfolio Workload Allocation",
+      "sourcePath": "lib/october13.ts",
+      "thumbnailPath": "public/thumbnails/october-13/portfolio-workload-allocation-governance.svg",
+      "route": "/research/portfolio-workload-allocation-governance",
+      "publicationDate": "2026-10-13"
+    }
+  ]
+}
