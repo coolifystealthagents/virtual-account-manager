@@ -1,1 +1,35 @@
-import {notFound} from 'next/navigation';import Link from 'next/link';import {site} from '@/lib/site';const slug=(s:string)=>s.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-|-$/g,'');export function generateStaticParams(){return site.services.map(x=>({slug:slug(x[0])}))}export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const p=await params;const x=site.services.find(v=>slug(v[0])===p.slug);return x?{title:x[0],description:x[1],alternates:{canonical:'/services/'+p.slug}}:{}}export default async function Service({params}:{params:Promise<{slug:string}>}){const p=await params;const x=site.services.find(v=>slug(v[0])===p.slug);if(!x)notFound();const schema={'@context':'https://schema.org','@type':'Service',name:x[0],provider:{'@type':'Organization',name:site.brand},areaServed:'United States',description:x[1]};return <><section className="section"><div className="wrap"><p className="eyebrow">Specialized service</p><h1>{x[0]}</h1><p className="lede">{x[1]} The service works inside your approved process with visible boundaries and accountable escalation.</p><div className="workflow"><div className="step"><b>01</b><h3>Inputs</h3><p>Approved records, priorities, owners, and working procedures.</p></div><div className="step"><b>02</b><h3>Coordination</h3><p>Organized follow-up, status capture, and exception routing.</p></div><div className="step"><b>03</b><h3>Review</h3><p>Your authorized owner reviews decisions and sensitive items.</p></div><div className="step"><b>04</b><h3>Evidence</h3><p>Completed actions and open questions remain visible.</p></div></div></div></section><section className="section"><div className="wrap prose"><h2>What this support can cover</h2><ul><li>Repeatable worklists and ownership views</li><li>Approved follow-up and documentation</li><li>Exception queues with clear escalation</li><li>Meeting and handoff preparation</li><li>Completion records for internal review</li></ul><h2>Clear professional boundaries</h2><p>{site.disclaimer}</p><h2>Common questions</h2><h3>Can the workflow fit our existing tools?</h3><p>Yes. The process can be documented around your current systems and approved access model.</p><h3>Who makes sensitive decisions?</h3><p>Your authorized professionals do. Support staff prepare information and route issues without taking over protected judgment.</p><Link id="cta-services-detail-consultation" className="cta" href="/contact-us">Discuss this service in a free call</Link></div></section><script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/></>}
+import {notFound} from 'next/navigation';
+import Link from 'next/link';
+import {site} from '@/lib/site';
+import {serviceDetails} from '@/lib/service-details';
+
+export function generateStaticParams(){return Object.keys(serviceDetails).map(slug=>({slug}))}
+
+export async function generateMetadata({params}:{params:Promise<{slug:string}>}){
+  const {slug}=await params;
+  const service=serviceDetails[slug];
+  return service?{title:service.name,description:service.description,alternates:{canonical:'/services/'+slug}}:{};
+}
+
+export default async function Service({params}:{params:Promise<{slug:string}>}){
+  const {slug}=await params;
+  const service=serviceDetails[slug];
+  if(!service)notFound();
+  const schema={'@context':'https://schema.org','@type':'Service',name:service.name,provider:{'@type':'Organization',name:site.brand},areaServed:'United States',description:service.description};
+  const faqSchema={'@context':'https://schema.org','@type':'FAQPage',mainEntity:service.faqs.map(faq=>({'@type':'Question',name:faq.question,acceptedAnswer:{'@type':'Answer',text:faq.answer}}))};
+  return <>
+    <section className="section"><div className="wrap">
+      <p className="eyebrow">{service.eyebrow}</p><h1>{service.title}</h1><p className="lede">{service.intro}</p>
+      <div className="workflow">{service.steps.map((step,index)=><div className="step" key={step.title}><b>{String(index+1).padStart(2,'0')}</b><h3>{step.title}</h3><p>{step.body}</p></div>)}</div>
+    </div></section>
+    <section className="section"><div className="wrap prose">
+      <h2>When this service helps</h2><p>{service.need}</p>
+      <h2>What your team receives</h2><ul>{service.deliverables.map(item=><li key={item}>{item}</li>)}</ul>
+      <h2>Clear professional boundaries</h2><p>{service.boundary}</p>
+      <h2>Common questions</h2>{service.faqs.map(faq=><div key={faq.question}><h3>{faq.question}</h3><p>{faq.answer}</p></div>)}
+      <Link id="cta-services-detail-consultation" className="cta" href="/contact-us">{service.cta}</Link>
+    </div></section>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(schema)}}/>
+    <script type="application/ld+json" dangerouslySetInnerHTML={{__html:JSON.stringify(faqSchema)}}/>
+  </>;
+}
