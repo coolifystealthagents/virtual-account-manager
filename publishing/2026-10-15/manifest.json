@@ -1,0 +1,119 @@
+{
+  "site": "VirtualAccountManager.com",
+  "canonicalDomain": "https://virtualaccountmanager.com",
+  "publicationDate": "2026-10-15",
+  "counts": {
+    "blog": 12,
+    "total": 12
+  },
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "sales-to-account-management-handoff",
+      "title": "Build a Sales to Account Management Handoff That Preserves Context",
+      "route": "/blog/sales-to-account-management-handoff",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/sales-to-account-management-handoff.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "virtual-account-manager-tasks",
+      "title": "Which Virtual Account Manager Tasks Should You Delegate?",
+      "route": "/blog/virtual-account-manager-tasks",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/virtual-account-manager-tasks.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-sop",
+      "title": "How to Write an Account Management SOP Your Team Can Use",
+      "route": "/blog/account-management-sop",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/account-management-sop.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-crm-hygiene",
+      "title": "Account Management CRM Hygiene: A Practical Operating Guide",
+      "route": "/blog/account-management-crm-hygiene",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/account-management-crm-hygiene.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "renewal-risk-review-checklist",
+      "title": "A Renewal Risk Review Checklist for Evidence-Based Planning",
+      "route": "/blog/renewal-risk-review-checklist",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/renewal-risk-review-checklist.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "quarterly-business-review-preparation",
+      "title": "Quarterly Business Review Preparation: From Evidence to Agenda",
+      "route": "/blog/quarterly-business-review-preparation",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/quarterly-business-review-preparation.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "customer-communication-plan",
+      "title": "How to Build a Customer Communication Plan for Managed Accounts",
+      "route": "/blog/customer-communication-plan",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/customer-communication-plan.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-kpi-dashboard",
+      "title": "Account Management KPI Dashboard: What to Track and Why",
+      "route": "/blog/account-management-kpi-dashboard",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/account-management-kpi-dashboard.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-capacity-planning",
+      "title": "Account Management Capacity Planning Without Guesswork",
+      "route": "/blog/account-management-capacity-planning",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/account-management-capacity-planning.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-manager-vs-customer-success-manager",
+      "title": "Account Manager vs Customer Success Manager: Who Owns What?",
+      "route": "/blog/account-manager-vs-customer-success-manager",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/account-manager-vs-customer-success-manager.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "outsource-account-management-support",
+      "title": "How to Outsource Account Management Support Responsibly",
+      "route": "/blog/outsource-account-management-support",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/outsource-account-management-support.svg",
+      "publicationDate": "2026-10-15"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-onboarding-checklist",
+      "title": "Account Management Onboarding Checklist for a New Portfolio",
+      "route": "/blog/account-management-onboarding-checklist",
+      "sourcePath": "lib/october15-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-15/account-management-onboarding-checklist.svg",
+      "publicationDate": "2026-10-15"
+    }
+  ]
+}
