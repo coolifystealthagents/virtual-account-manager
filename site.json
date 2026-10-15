@@ -5,13 +5,13 @@
   "short": "Virtual Account Manager",
   "variant": "portfolio",
   "colors": [
-    "#54244f",
-    "#fff6e8",
-    "#ef6a62",
-    "#b8a0df"
+    "#17368f",
+    "#f5f3e9",
+    "#f24f4c",
+    "#17368f"
   ],
-  "fontDisplay": "Palatino",
-  "fontBody": "Avenir",
+  "fontDisplay": "Arial Narrow, Impact, sans-serif",
+  "fontBody": "Arial, Helvetica, sans-serif",
   "hero": "exec-f76298b4-d307-4fa2-b3c3-2fc38df8c6c0.png",
   "mark": "orbit",
   "eyebrow": "Relationship portfolio studio",

@@ -129,9 +129,9 @@ img {
 }
 .eyebrow {
   text-transform: uppercase;
-  letter-spacing: 0.18em;
-  font-size: 0.72rem;
-  font-weight: 800;
+  letter-spacing: 0.12em;
+  font-size: 0.78rem;
+  font-weight: 900;
   color: var(--accent);
 }
 .lede {
@@ -172,7 +172,9 @@ img {
   text-decoration: none;
 }
 .card h3 {
-  font: 600 1.35rem/1.2 var(--display);
+  font: 800 1.35rem/1.05 var(--display);
+  text-transform: uppercase;
+  letter-spacing: .015em;
   margin: 0.2em 0;
 }
 .card p {
