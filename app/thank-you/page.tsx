@@ -1,8 +1,9 @@
+import Image from 'next/image';
 import Link from 'next/link';
 import {site} from '@/lib/site';
 import './thank-you.css';
 
-export const metadata={title:'Choose your consultation time',description:'Choose a convenient time for your Virtual Account Manager consultation.',robots:{index:false,follow:false}};
+export const metadata={title:'Choose your consultation time',description:'Your request is in. Choose a convenient time for your Virtual Account Manager consultation.',robots:{index:false,follow:false}};
 
 const nextSteps=[
   ['01','Choose your time','Pick the slot that feels easiest for your schedule.'],
@@ -12,8 +13,8 @@ const nextSteps=[
 
 export default function Page(){return <div className="booking-page">
   <section className="booking-intro" aria-labelledby="booking-title"><div className="wrap booking-intro-grid">
-    <div className="booking-copy"><p className="eyebrow">Your request is in</p><h1 id="booking-title">Nice to meet you. Let’s find your time.</h1><p className="booking-lede">You have already done the hard part by reaching out. Choose a time below and we’ll come ready to listen, understand what is getting stuck, and identify a practical first step.</p><div className="booking-note"><span aria-hidden="true">30</span><p><strong>A focused 30-minute conversation.</strong><br/>No sales deck. No sensitive customer details. Just your questions and one workflow you would like to make easier.</p></div><Link className="booking-back" href="/">Not ready to book? Return to the homepage</Link></div>
-    <div className="booking-poster" aria-hidden="true"><span className="booking-poster-kicker">Request received</span><strong>Next:<br/>choose your time</strong><div className="booking-poster-flow"><span><b>01</b> Request sent</span><span><b>02</b> Pick a time below</span></div><i>30-minute consultation</i></div>
+    <div className="booking-copy"><p className="booking-status"><span aria-hidden="true">✓</span> Request received</p><h1 id="booking-title">Your request is in.</h1><h2>Nice to meet you. Choose your time.</h2><p className="booking-lede">You have already done the hard part by reaching out. Pick a time below and we’ll come ready to listen, understand what is getting stuck, and identify a practical first step.</p><div className="booking-note"><span aria-hidden="true">30</span><p><strong>A focused 30-minute conversation.</strong><br/>No sales deck. No sensitive customer details. Just your questions and one workflow you would like to make easier.</p></div><a className="booking-jump" href="#calendar-title">Choose a time <span aria-hidden="true">↓</span></a><Link className="booking-back" href="/">Return to the homepage</Link></div>
+    <figure className="booking-photo"><Image src="/editorial-thank-you-scheduler.webp" alt="Customer success professional ready for a scheduled consultation" width={1440} height={1080} priority sizes="(max-width: 900px) 100vw, 44vw"/><figcaption><b>Next: choose what works.</b><span>Your local time zone appears in the calendar below.</span></figcaption></figure>
   </div></section>
   <section className="booking-calendar-section" aria-labelledby="calendar-title"><div className="wrap booking-calendar-grid">
     <aside className="booking-steps"><p className="eyebrow">What happens next</p><h2>Simple from here.</h2><ol>{nextSteps.map(([number,title,copy])=><li key={number}><b>{number}</b><div><h3>{title}</h3><p>{copy}</p></div></li>)}</ol></aside>
