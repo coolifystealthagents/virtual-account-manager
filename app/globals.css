@@ -5,6 +5,7 @@
   --accent: #2456d8;
   --metal: #b7803d;
   --radius: 22px;
+  --opening-space: clamp(1.5rem, 2vw, 2rem);
   --display: var(--font-display), "Arial Rounded MT Bold", sans-serif;
   --tall: var(--font-tall), "Arial Narrow", sans-serif;
   --body: var(--font-body), Arial, sans-serif;
@@ -156,6 +157,9 @@ img {
 }
 .section {
   padding: 90px 0;
+}
+main > .section:first-child {
+  padding-top: var(--opening-space);
 }
 .section h2 {
   font: 500 clamp(2rem, 4vw, 4rem) / 1.03 var(--display);
