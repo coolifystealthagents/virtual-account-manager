@@ -21,3 +21,13 @@
 .service-detail .workflow{margin-top:3rem}.detail-copy{background:color-mix(in srgb,var(--paper) 75%,white)}
 @media(max-width:900px){.directory-grid{grid-template-columns:repeat(2,1fr)}.principle-grid{grid-template-columns:repeat(2,1fr)}.split-story,.library-heading{grid-template-columns:1fr;gap:20px}}
 @media(max-width:620px){.page-hero{padding:4rem 0}.page-hero h1{font-size:clamp(3rem,14vw,4.6rem)}.directory-grid,.principle-grid{grid-template-columns:1fr}.directory-card{min-height:250px}.boundary-note{grid-template-columns:1fr;gap:8px}.library-page .featured-article{grid-column:auto;min-height:280px}}
+
+/* Persistent desktop navigation rail */
+@media(min-width:1181px){
+  body{padding-right:210px}
+  .nav .links{position:fixed;z-index:60;top:50%;right:18px;width:174px;transform:translateY(-50%);display:flex;flex-direction:column;align-items:stretch;gap:4px;padding:16px;background:color-mix(in srgb,var(--bg) 96%,transparent);border:1px solid color-mix(in srgb,var(--ink) 14%,transparent);border-radius:20px;box-shadow:0 22px 55px color-mix(in srgb,var(--ink) 17%,transparent);backdrop-filter:blur(18px)}
+  .nav .links:before{content:'Explore';padding:4px 10px 10px;color:var(--accent);font-size:.62rem;font-weight:900;letter-spacing:.14em;text-transform:uppercase}
+  .nav .links a:not(.cta){display:flex;align-items:center;min-height:42px;padding:8px 10px;border-radius:10px;font-size:.78rem;font-weight:800;text-decoration:none;transition:background .2s ease,color .2s ease}
+  .nav .links a:not(.cta):hover,.nav .links a:not(.cta):focus-visible{background:color-mix(in srgb,var(--metal) 18%,var(--bg));color:var(--accent);text-decoration:none}
+  .nav .links .cta{width:100%;min-height:44px;margin-top:8px;padding:9px 12px;font-size:.72rem;text-align:center;white-space:normal}
+}
