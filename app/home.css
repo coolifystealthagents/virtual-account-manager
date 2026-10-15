@@ -74,6 +74,9 @@
 @media(max-width:900px){.access-hero-grid,.access-intro-grid,.access-review-grid,.access-feedback-grid{grid-template-columns:1fr}.access-poster{min-height:360px}.access-practice-grid{grid-template-columns:1fr}.access-help-grid{grid-template-columns:1fr}.access-help-grid article{min-height:0}}
 @media(max-width:620px){.access-hero{padding:4rem 0}.access-hero h1{font-size:clamp(3.3rem,16vw,5.2rem)}.access-poster{min-height:300px;box-shadow:9px 9px 0 var(--bg)}.access-poster strong{font-size:19rem}.access-practice-card{min-height:0;padding:24px}.access-reviewed{align-items:flex-start;flex-direction:column;gap:4px}.access-contact-card{padding:24px;box-shadow:8px 8px 0 var(--bg)}}
 
+/* Conversion discipline: the persistent rail plus one contextual action per page. */
+.fit-card .cta,.faq-grid .secondary-button,.final-cta .cta,.page-hero .cta,.article-layout .sidebar .cta{display:none}
+
 /* One consistent opening step between the sticky header and first-page content. */
 .home-hero,.page-hero,.access-hero{padding-top:var(--opening-space)}
 @media(max-width:700px){.home-hero,.page-hero,.access-hero{padding-top:var(--opening-space)}}

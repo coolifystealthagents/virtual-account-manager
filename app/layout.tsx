@@ -6,7 +6,6 @@ import './home.css';
 import { site } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
-import Popup from '@/components/Popup';
 
 const displayFont = Baloo_2({ subsets: ['latin'], variable: '--font-display', display: 'swap' });
 const tallFont = Oswald({ subsets: ['latin'], variable: '--font-tall', display: 'swap' });
@@ -51,7 +50,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main id="main">{children}</main>
         <Footer />
-        <Popup />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
         <Script id="acr-config" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: tracker }} />
         <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
