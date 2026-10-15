@@ -35,8 +35,9 @@ body::before {
   inset: 0;
   z-index: 0;
   pointer-events: none;
-  background: url('/paper-texture.webp') center top / 900px auto repeat;
-  opacity: .14;
+  background: url('/paper-texture.webp') center top / 760px auto repeat;
+  opacity: .32;
+  filter: contrast(1.12);
   mix-blend-mode: multiply;
 }
 body > * {
