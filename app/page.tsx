@@ -1,7 +1,6 @@
 import type {Metadata} from 'next';
 import Link from 'next/link';
 import {site} from '@/lib/site';
-import './home.css';
 
 export const metadata: Metadata = {
   title: 'Virtual Account Management Support',
