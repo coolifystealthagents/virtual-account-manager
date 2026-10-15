@@ -10,8 +10,9 @@
     "#f24f4c",
     "#17368f"
   ],
-  "fontDisplay": "Arial Narrow, Impact, sans-serif",
-  "fontBody": "Arial, Helvetica, sans-serif",
+  "fontDisplay": "Baloo 2",
+  "fontTall": "Oswald",
+  "fontBody": "Inter",
   "hero": "exec-f76298b4-d307-4fa2-b3c3-2fc38df8c6c0.png",
   "mark": "orbit",
   "eyebrow": "Relationship portfolio studio",
