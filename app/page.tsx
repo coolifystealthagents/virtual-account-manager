@@ -29,6 +29,13 @@ const faqs = [
   ['Which teams are a good fit?', 'This support is designed for B2B customer teams, agencies, professional service firms, and growing businesses with a portfolio of ongoing client relationships.'],
 ];
 
+const reviews = [
+  {quote: 'We went from 300 hours a month to over 2,500 hours with Stealth Agents.', name: 'Erika Giron', role: 'CEO, Horizon Pacific Staffing', initials: 'EG'},
+  {quote: 'Gained time for sales and closed three clients within two days. Exceptional service.', name: 'Aisha Wonderfull', role: 'CEO, Publishing Startup', initials: 'AW'},
+  {quote: 'Outstanding service. Less than 24-hour VA placement. Fast, high-quality.', name: 'Owen Hone', role: 'Multiple Hire Client', initials: 'OH'},
+  {quote: 'Great communication, efficient and proactive assistant, visible business growth.', name: 'Sarah Jacoby', role: 'Client', initials: 'SJ'},
+];
+
 export default function Home() {
   const faqSchema = {'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([name,text])=>({'@type':'Question',name,acceptedAnswer:{'@type':'Answer',text}}))};
   return <>
@@ -60,6 +67,18 @@ export default function Home() {
 
     <section className="value-strip" aria-label="Who we support">
       <div className="wrap value-strip-inner"><b>Built for growing customer teams</b><span>B2B services</span><span>Agencies</span><span>Customer success</span><span>Account teams</span></div>
+    </section>
+
+    <section className="section reviews-section" aria-labelledby="reviews-title">
+      <div className="wrap">
+        <div className="reviews-heading"><div><p className="eyebrow">Client reviews</p><h2 id="reviews-title">What our clients say</h2></div><p>Verified feedback from clients of Stealth Agents, the team behind Virtual Account Manager.</p></div>
+        <div className="reviews-grid">{reviews.map(review=><figure className="review-card reveal" key={review.name}>
+          <div className="review-stars" aria-label="5 out of 5 stars"><span aria-hidden="true">★★★★★</span></div>
+          <blockquote>“{review.quote}”</blockquote>
+          <figcaption><span className="review-avatar" aria-hidden="true">{review.initials}</span><span><b>{review.name}</b><small>{review.role}</small></span></figcaption>
+        </figure>)}</div>
+        <p className="reviews-source">Testimonials shown with their original Stealth Agents attribution.</p>
+      </div>
     </section>
 
     <section className="section home-services" id="services">
