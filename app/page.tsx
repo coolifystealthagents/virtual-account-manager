@@ -51,7 +51,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="hero-visual">
-          <div className="hero-image-wrap"><img src="/hero.png" width="1536" height="960" alt="Account support specialist coordinating priorities and follow-up actions" fetchPriority="high" /></div>
+          <div className="hero-image-wrap"><img src="/hero-corporate-success.webp" width="1774" height="887" alt="Successful account management team in a modern corporate office" fetchPriority="high" /></div>
           <div className="floating-card floating-card-top"><span className="icon-chip"><Icon name="check" /></span><span><b>Follow-up ready</b><small>Owners and next steps aligned</small></span></div>
           <div className="floating-card floating-card-bottom"><span className="status-dots" aria-hidden="true"><i/><i/><i/></span><span><b>Portfolio organized</b><small>Priorities visible at a glance</small></span></div>
         </div>
