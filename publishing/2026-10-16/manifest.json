@@ -1,0 +1,131 @@
+{
+  "site": "VirtualAccountManager.com",
+  "canonicalDomain": "https://virtualaccountmanager.com",
+  "publicationDate": "2026-10-16",
+  "counts": {
+    "blog": 12,
+    "total": 12
+  },
+  "items": [
+    {
+      "section": "Blog",
+      "slug": "virtual-account-manager-vs-account-coordinator",
+      "title": "Virtual Account Manager vs Account Coordinator: How the Roles Differ",
+      "intent": "virtual account manager vs account coordinator",
+      "route": "/blog/virtual-account-manager-vs-account-coordinator",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/virtual-account-manager-vs-account-coordinator.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "virtual-account-manager-vs-executive-assistant",
+      "title": "Virtual Account Manager vs Executive Assistant for Customer-Facing Work",
+      "intent": "virtual account manager vs executive assistant",
+      "route": "/blog/virtual-account-manager-vs-executive-assistant",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/virtual-account-manager-vs-executive-assistant.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "fractional-account-manager-vs-virtual-account-manager",
+      "title": "Fractional Account Manager vs Virtual Account Manager: A Buyer Guide",
+      "intent": "fractional account manager vs virtual account manager",
+      "route": "/blog/fractional-account-manager-vs-virtual-account-manager",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/fractional-account-manager-vs-virtual-account-manager.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-assistant-job-description",
+      "title": "Account Management Assistant Job Description: Scope, Duties, and Boundaries",
+      "intent": "account management assistant job description",
+      "route": "/blog/account-management-assistant-job-description",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/account-management-assistant-job-description.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-meeting-agenda-template",
+      "title": "Account Management Meeting Agenda Template for Clear Decisions",
+      "intent": "account management meeting agenda template",
+      "route": "/blog/account-management-meeting-agenda-template",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/account-management-meeting-agenda-template.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "client-status-report-template",
+      "title": "Client Status Report Template: What to Include and What to Leave Out",
+      "intent": "client status report template",
+      "route": "/blog/client-status-report-template",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/client-status-report-template.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "customer-escalation-process",
+      "title": "How to Build a Customer Escalation Process That Preserves Context",
+      "intent": "customer escalation process",
+      "route": "/blog/customer-escalation-process",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/customer-escalation-process.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-coverage-model",
+      "title": "How to Design an Account Coverage Model for a Growing Portfolio",
+      "intent": "account coverage model",
+      "route": "/blog/account-coverage-model",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/account-coverage-model.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-raci-matrix",
+      "title": "Account Management RACI Matrix: Map Decisions Without Adding Confusion",
+      "intent": "account management RACI matrix",
+      "route": "/blog/account-management-raci-matrix",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/account-management-raci-matrix.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "customer-request-tracker",
+      "title": "Customer Request Tracker: Fields, Ownership, and Escalation Rules",
+      "intent": "customer request tracker",
+      "route": "/blog/customer-request-tracker",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/customer-request-tracker.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "account-management-operating-model",
+      "title": "Account Management Operating Model: People, Cadence, Data, and Controls",
+      "intent": "account management operating model",
+      "route": "/blog/account-management-operating-model",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/account-management-operating-model.svg",
+      "publicationDate": "2026-10-16"
+    },
+    {
+      "section": "Blog",
+      "slug": "key-account-management-process",
+      "title": "Key Account Management Process: From Selection to Review",
+      "intent": "key account management process",
+      "route": "/blog/key-account-management-process",
+      "sourcePath": "lib/october16-blog.ts",
+      "thumbnailPath": "public/thumbnails/october-16/key-account-management-process.svg",
+      "publicationDate": "2026-10-16"
+    }
+  ]
+}
