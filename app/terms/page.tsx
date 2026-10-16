@@ -1,1 +1,11 @@
-import {site} from '@/lib/site';export async function generateMetadata({params}:{params:Promise<{legal:string}>}){const p={legal:'terms'};const name=p.legal==='privacy-policy'?'Privacy policy':p.legal==='terms'?'Terms of use':'Accessibility';return{title:name,description:name+' for '+site.brand}}export default async function Page({params}:{params:Promise<{legal:string}>}){const p={legal:'terms'};const map:any={'privacy-policy':['Privacy policy',site.legal.privacy],terms:['Terms of use',site.legal.terms],accessibility:['Accessibility statement',site.legal.accessibility]};const x=map[p.legal];return <section className="section"><div className="wrap prose"><h1>{x[0]}</h1><p>Last updated October 9, 2026</p><p>{x[1]}</p><h2>Contact</h2><p>Email hello@{site.domain} with questions about this page.</p></div></section>}
+import type { Metadata } from 'next';
+import { site } from '@/lib/site';
+
+export const metadata: Metadata = {
+  title: 'Terms of use', description: `Terms of use for ${site.brand}`,
+  alternates: { canonical: '/terms' },
+};
+
+export default function Terms() {
+  return <section className="section"><div className="wrap prose"><h1>Terms of use</h1><p>Last updated October 9, 2026</p><p>{site.legal.terms}</p><h2>Contact</h2><p>Email hello@{site.domain} with questions about this page.</p></div></section>;
+}

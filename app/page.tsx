@@ -1,10 +1,12 @@
 import type {Metadata} from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import {site} from '@/lib/site';
 
 export const metadata: Metadata = {
   title: 'Virtual Account Management Support',
   description: 'Keep account plans, renewals, customer meetings, requests, and follow-through organized with dedicated virtual account management support.',
+  alternates: { canonical: '/' },
 };
 
 const serviceIcons = ['map', 'calendar', 'chat', 'users', 'inbox', 'chart'];
@@ -58,7 +60,7 @@ export default function Home() {
           </ul>
         </div>
         <div className="hero-visual">
-          <div className="hero-image-wrap"><img src="/hero-editorial-account-leader.webp" width="1672" height="941" alt="Confident account leader in a cobalt and coral editorial portrait" fetchPriority="high" /></div>
+          <div className="hero-image-wrap"><Image src="/hero-editorial-account-leader.webp" width={1672} height={941} sizes="(max-width: 900px) 100vw, 50vw" alt="Confident account leader in a cobalt and coral editorial portrait" priority /></div>
           <div className="floating-card floating-card-top"><span className="icon-chip"><Icon name="check" /></span><span><b>Follow-up ready</b><small>Owners and next steps aligned</small></span></div>
           <div className="floating-card floating-card-bottom"><span className="status-dots" aria-hidden="true"><i/><i/><i/></span><span><b>Portfolio organized</b><small>Priorities visible at a glance</small></span></div>
         </div>

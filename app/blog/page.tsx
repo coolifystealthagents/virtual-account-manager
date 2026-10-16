@@ -12,6 +12,7 @@ import { october16Blog, october16Date } from "@/lib/october16-blog";
 export const metadata = {
   title: "Blogs and practical insights",
   description: "Practical articles for " + site.audience + ".",
+  alternates: { canonical: "/blog" },
 };
 const articles = [
   ...october16Blog.map((x) => ({

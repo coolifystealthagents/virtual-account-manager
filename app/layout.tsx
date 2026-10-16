@@ -15,8 +15,14 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://' + site.domain),
   title: { default: site.brand, template: '%s | ' + site.brand },
   description: site.intro,
-  alternates: { canonical: '/' },
   robots: { index: true, follow: true },
+  applicationName: site.brand,
+  openGraph: {
+    type: 'website', siteName: site.brand, title: site.brand,
+    description: site.intro, url: '/',
+    images: [{ url: '/hero-editorial-account-leader.webp', width: 1672, height: 941, alt: 'Virtual account management support' }],
+  },
+  twitter: { card: 'summary_large_image', title: site.brand, description: site.intro, images: ['/hero-editorial-account-leader.webp'] },
   icons: {
     icon: [{ url: '/favicon.svg', type: 'image/svg+xml', sizes: 'any' }],
     shortcut: '/favicon.svg',
@@ -33,6 +39,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     logo: 'https://' + site.domain + '/logo.svg',
     sameAs: [],
   };
+  const website = {
+    '@context': 'https://schema.org', '@type': 'WebSite', name: site.brand,
+    url: 'https://' + site.domain, description: site.intro,
+    publisher: { '@type': 'Organization', name: site.brand },
+  };
   const tracker = `window.ACR_TRACKER_CONFIG={siteId:'${site.dir}',endpoint:'/ingest/track',debug:false};`;
   return (
     <html lang="en" className={`${displayFont.variable} ${tallFont.variable} ${bodyFont.variable}`}>
@@ -48,6 +59,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <main id="main">{children}</main>
         <Footer />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }} />
         <Script id="acr-config" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: tracker }} />
         <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="lazyOnload" />
       </body>
