@@ -70,6 +70,10 @@ export default function Home() {
       </div>
     </section>
 
+    <section className="home-cta-split" aria-label="Get started">
+      <div className="wrap home-cta-split-inner"><div><p className="eyebrow">Start with one pressure point</p><h2>Too many accounts. Too little follow-through time.</h2></div><div><p>Bring us the workflow that keeps slipping. We will help you define the repeatable coordination work, the approval boundaries, and a practical first scope.</p><Link className="cta cta-light" href="/contact-us">Find your best starting point <span aria-hidden="true">→</span></Link></div></div>
+    </section>
+
     <section className="section outcomes-section">
       <div className="wrap outcomes-grid">
         <div className="outcomes-copy"><p className="eyebrow">Why teams choose support</p><h2>Protect the details that build trust.</h2><p>Customer relationships rarely break because of one big moment. They become harder to manage when context is scattered, requests sit unanswered, or the next action is unclear.</p><p>A virtual account manager brings a steady operating rhythm to the work between customer conversations.</p><Link className="text-link" href="/about">Learn about our approach <span aria-hidden="true">→</span></Link></div>

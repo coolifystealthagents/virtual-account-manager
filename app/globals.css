@@ -244,6 +244,13 @@ img {
   position: sticky;
   top: 110px;
 }
+.article-toc{border:3px solid var(--ink);background:var(--bg);box-shadow:8px 8px 0 var(--accent)}
+.article-toc .eyebrow{margin:0;padding:20px 20px 14px;border-bottom:2px solid var(--ink)}
+.article-toc ol{margin:0;padding:0;list-style:none}
+.article-toc li+li{border-top:1px solid color-mix(in srgb,var(--ink) 18%,transparent)}
+.article-toc a{display:grid;grid-template-columns:30px 1fr;gap:10px;padding:14px 18px;text-decoration:none;font-weight:800;line-height:1.25}
+.article-toc a:hover,.article-toc a:focus-visible{background:color-mix(in srgb,var(--accent) 12%,var(--bg))}
+.article-toc a span{color:var(--accent);font-size:.68rem;letter-spacing:.08em}
 .tags {
   display: flex;
   flex-wrap: wrap;
