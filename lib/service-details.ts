@@ -48,7 +48,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     deliverables: ['Renewal calendar with milestone and notice dates', 'Owner and dependency tracker', 'Approved material and document checklist', 'Follow-up queue with status and next action', 'Exception summary for stalled workflows'],
     boundary: 'Your authorized team owns pricing, terms, negotiation, forecasts, and customer commitments. Support staff coordinate the approved workflow and prepare information; they do not negotiate or guarantee a renewal outcome.',
     faqs: [
-      {question: 'How far ahead can renewal coordination begin?', answer: 'We follow the lead times in your playbook, whether the process starts several weeks or several months before renewal.'},
+      {question: 'How far ahead can renewal coordination begin?', answer: 'We follow the lead times in your process, whether the process starts several weeks or several months before renewal.'},
       {question: 'Can you coordinate across finance and legal?', answer: 'Yes, when those teams and escalation paths are part of the approved workflow. Their authorized owners still make legal, financial, and commercial decisions.'},
       {question: 'Does this replace a customer success manager?', answer: 'No. It gives account leaders a more reliable operating layer for milestones, materials, follow-up, and handoffs.'}
     ], cta: 'Bring structure to your renewal calendar'
@@ -148,7 +148,7 @@ export const serviceDetails: Record<string, ServiceDetail> = {
     deliverables: ['Expansion signal register', 'Source and evidence summary', 'Qualification checklist', 'Commercial-owner review queue', 'Disposition and follow-up record'],
     boundary: 'Your commercial leaders decide whether an opportunity exists, what to offer, and how to engage. Support staff document and route signals; they do not forecast revenue, qualify buyers independently, or promise outcomes.',
     faqs: [
-      {question: 'What counts as an expansion signal?', answer: 'Your playbook defines it. Examples may include an explicit new need, a change in scope, new stakeholders, or interest in an approved capability.'},
+      {question: 'What counts as an expansion signal?', answer: 'Your process defines it. Examples may include an explicit new need, a change in scope, new stakeholders, or interest in an approved capability.'},
       {question: 'Does this replace sales discovery?', answer: 'No. It gives sales or account leaders organized context and evidence for their own discovery and qualification.'},
       {question: 'How are weak signals handled?', answer: 'They remain clearly labeled as unconfirmed, with missing evidence and an approved next step or closure reason.'}
     ], cta: 'Create a clearer path from signal to review'

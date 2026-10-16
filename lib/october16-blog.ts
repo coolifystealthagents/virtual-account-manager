@@ -85,7 +85,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -163,7 +163,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -241,7 +241,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -319,7 +319,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -396,7 +396,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -473,7 +473,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -549,7 +549,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -625,7 +625,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -702,7 +702,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -778,7 +778,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -855,7 +855,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",
@@ -931,7 +931,7 @@ export const october16Blog: October16Blog[] = [
       },
       {
         q: "What can delegated account support own?",
-        a: "Support can prepare, coordinate, document, and route work within an approved playbook. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
+        a: "Support can prepare, coordinate, document, and route work within an approved process. Protected commercial, legal, privacy, security, and strategic decisions remain with authorized owners.",
       },
       {
         q: "How should the workflow be tested?",

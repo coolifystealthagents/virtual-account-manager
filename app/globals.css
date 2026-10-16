@@ -13,9 +13,6 @@
 * {
   box-sizing: border-box;
 }
-html {
-  scroll-behavior: smooth;
-}
 body {
   margin: 0;
   isolation: isolate;
@@ -23,7 +20,6 @@ body {
     radial-gradient(circle at 8% 4%, color-mix(in srgb, var(--metal) 27%, transparent), transparent 32rem),
     radial-gradient(circle at 92% 38%, color-mix(in srgb, var(--accent) 15%, transparent), transparent 36rem),
     linear-gradient(145deg, var(--bg) 0%, color-mix(in srgb, var(--metal) 10%, var(--bg)) 48%, color-mix(in srgb, var(--accent) 7%, var(--bg)) 100%);
-  background-attachment: fixed;
   color: var(--ink);
   font: 18px/1.7 var(--body);
   overflow-x: hidden;
@@ -72,7 +68,7 @@ img {
   top: 0;
   z-index: 30;
   background: color-mix(in srgb, var(--bg) 92%, transparent);
-  backdrop-filter: blur(16px);
+  backdrop-filter:none;
   border-bottom: 1px solid color-mix(in srgb, var(--ink) 14%, transparent);
 }
 .navin {
@@ -259,6 +255,13 @@ main > .section:first-child {
   position: sticky;
   top: 110px;
 }
+.article-toc{border:3px solid var(--ink);background:var(--bg);box-shadow:8px 8px 0 var(--accent)}
+.article-toc .eyebrow{margin:0;padding:20px 20px 14px;border-bottom:2px solid var(--ink)}
+.article-toc ol{margin:0;padding:0;list-style:none}
+.article-toc li+li{border-top:1px solid color-mix(in srgb,var(--ink) 18%,transparent)}
+.article-toc a{display:grid;grid-template-columns:30px 1fr;gap:10px;padding:14px 18px;text-decoration:none;font-weight:800;line-height:1.25}
+.article-toc a:hover,.article-toc a:focus-visible{background:color-mix(in srgb,var(--accent) 12%,var(--bg))}
+.article-toc a span{color:var(--accent);font-size:.68rem;letter-spacing:.08em}
 .tags {
   display: flex;
   flex-wrap: wrap;
@@ -411,7 +414,7 @@ main > .section:first-child {
 .js .reveal {
   opacity: 0;
   transform: translateY(18px);
-  transition: 0.65s ease;
+  transition:none;
 }
 .js .reveal.in {
   opacity: 1;
@@ -482,7 +485,7 @@ main > .section:first-child {
   .js .reveal {
     opacity: 1;
     transform: none;
-    transition: none;
+    transition:none;
   }
 }
 
@@ -532,7 +535,7 @@ body {
   padding-inline: 20px;
   font-weight: 800;
   white-space: nowrap;
-  transition: transform 0.2s ease;
+  transition:none;
 }
 .cta:hover,
 .button:hover {
@@ -617,9 +620,7 @@ body {
   border: 1px solid color-mix(in srgb, var(--ink) 14%, transparent);
   border-radius: 14px;
   text-decoration: none;
-  transition:
-    transform 0.2s ease,
-    border-color 0.2s ease;
+  transition: none;
 }
 .article-card:nth-child(4n + 2),
 .article-card:nth-child(4n + 3) {
@@ -646,7 +647,7 @@ body {
   max-width: 900px;
 }
 .modal-bg {
-  backdrop-filter: blur(5px);
+  backdrop-filter:none;
 }
 .booking-modal {
   max-width: 520px;

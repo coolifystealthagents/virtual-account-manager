@@ -34,11 +34,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     sameAs: [],
   };
   const tracker = `window.ACR_TRACKER_CONFIG={siteId:'${site.dir}',endpoint:'/ingest/track',debug:false};`;
-  const motion = "const o=new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');o.unobserve(x.target)}}));document.querySelectorAll('.reveal').forEach(x=>o.observe(x));";
-
   return (
     <html lang="en" className={`${displayFont.variable} ${tallFont.variable} ${bodyFont.variable}`}>
-      <head><script dangerouslySetInnerHTML={{ __html: "document.documentElement.classList.add('js')" }} /></head>
       <body className={site.variant} style={{
         '--bg': site.colors[1],
         '--ink': site.colors[0],
@@ -52,8 +49,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Footer />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
         <Script id="acr-config" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: tracker }} />
-        <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
-        <Script id="motion" strategy="afterInteractive" dangerouslySetInnerHTML={{ __html: motion }} />
+        <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="lazyOnload" />
       </body>
     </html>
   );

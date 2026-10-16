@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import LeadForm from "@/components/LeadForm";
+import ArticleToc from "@/components/ArticleToc";
 import { site } from "@/lib/site";
 import {
   octoberBlog as october12Blog,
@@ -135,16 +136,6 @@ export default async function Blog({
             />
             <div className="article-layout section">
               <article className="prose">
-                <nav className="card" aria-label="Table of contents">
-                  <h2>In this guide</h2>
-                  <ol>
-                    {current.sections.map((s) => (
-                      <li key={s.heading}>
-                        <a href={"#" + anchor(s.heading)}>{s.heading}</a>
-                      </li>
-                    ))}
-                  </ol>
-                </nav>
                 {current.sections.map((s, i) => (
                   <section key={s.heading}>
                     <h2 id={anchor(s.heading)}>{s.heading}</h2>
@@ -250,6 +241,7 @@ export default async function Blog({
                 </ul>
               </article>
               <aside className="sidebar">
+                <ArticleToc items={current.sections.map((s)=>({id:anchor(s.heading),label:s.heading}))}/>
                 <div className="card">
                   <h2>Plan the workflow</h2>
                   <p>
@@ -315,7 +307,7 @@ export default async function Blog({
               <article className="prose">
                 {article.sections.map((s) => (
                   <section key={s.heading}>
-                    <h2>{s.heading}</h2>
+                    <h2 id={anchor(s.heading)}>{s.heading}</h2>
                     <p>{s.body}</p>
                   </section>
                 ))}
@@ -342,6 +334,7 @@ export default async function Blog({
                 </Link>
               </article>
               <aside className="sidebar">
+                <ArticleToc items={article.sections.map((s)=>({id:anchor(s.heading),label:s.heading}))}/>
                 <div className="card">
                   <h2>Blog field guide</h2>
                   <p>
@@ -388,19 +381,19 @@ export default async function Blog({
           <p>{site.brand} Editorial Team · Published October 1, 2026</p>
           <div className="article-layout">
             <article className="prose">
-              <h2>Quick overview</h2>
+              <h2 id="quick-overview">Quick overview</h2>
               <p>
                 A strong workflow gives every input an owner, every exception a
                 route, and every completed task a visible record.
               </p>
-              <h2>What the role can handle</h2>
+              <h2 id="what-the-role-can-handle">What the role can handle</h2>
               <p>
                 Support can maintain approved worklists, organize inputs,
                 prepare meetings, document status, and route exceptions. It
                 should never blur the line between preparation and professional
                 judgment.
               </p>
-              <h2>Workflow fit and role boundaries</h2>
+              <h2 id="workflow-fit-and-role-boundaries">Workflow fit and role boundaries</h2>
               <p>{site.disclaimer}</p>
               <h2>Related Blog guides</h2>
               <ul>
@@ -415,6 +408,7 @@ export default async function Blog({
               </Link>
             </article>
             <aside className="sidebar">
+              <ArticleToc items={[{id:'quick-overview',label:'Quick overview'},{id:'what-the-role-can-handle',label:'What the role can handle'},{id:'workflow-fit-and-role-boundaries',label:'Workflow fit and role boundaries'}]}/>
               <div className="card">
                 <h2>Plan the next step</h2>
                 <p>

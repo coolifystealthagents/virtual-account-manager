@@ -88,6 +88,18 @@
   font-size: 0.74rem;
   color: color-mix(in srgb, var(--ink) 64%, transparent);
 }
+.lead-form small{font-size:.7rem;opacity:.62}
+.consultation-prep{padding:clamp(4rem,8vw,7rem) 0;background:var(--bg)}
+.consultation-prep-grid{display:grid;grid-template-columns:.72fr 1.28fr;gap:clamp(2rem,7vw,6rem);align-items:start}
+.consultation-prep h2,.parent-team h2{margin:.15em 0;font:900 clamp(2.8rem,5vw,5.2rem)/.9 var(--display);letter-spacing:-.025em;text-transform:uppercase}
+.prep-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.prep-cards article{min-height:230px;padding:24px;border:2px solid var(--ink);background:var(--paper);box-shadow:7px 7px 0 color-mix(in srgb,var(--ink) 12%,transparent)}
+.prep-cards b{color:var(--accent);font-size:.72rem}.prep-cards h3{margin:2.8rem 0 .7rem;font:900 1.35rem var(--display);text-transform:uppercase}.prep-cards p{font-size:.86rem;line-height:1.55}
+.parent-team{padding:clamp(4rem,8vw,7rem) 0;background:var(--ink);color:var(--bg)}
+.parent-team-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(2.5rem,8vw,7rem);align-items:center}
+.parent-team-art{min-height:390px;display:grid;place-items:center;align-content:center;border:4px solid var(--bg);background:var(--accent);box-shadow:14px 14px 0 var(--bg)}
+.parent-team-art span{font:900 clamp(8rem,18vw,15rem)/.75 var(--display)}.parent-team-art small{margin-top:2rem;font-weight:900;text-transform:uppercase;letter-spacing:.12em}
+.parent-team-grid>div:last-child>p{max-width:62ch;color:color-mix(in srgb,var(--bg) 80%,transparent)}.parent-team .cta{margin-top:1rem;background:var(--bg);color:var(--ink)}
 .calendar-drawer {
   width: min(1120px, calc(100% - 40px));
   margin: 0 auto 2rem;
@@ -126,6 +138,7 @@
   .contact-form-card {
     padding: 1.25rem;
   }
+  .consultation-prep-grid,.parent-team-grid{grid-template-columns:1fr}.prep-cards{grid-template-columns:1fr}.prep-cards article{min-height:0}.parent-team-art{min-height:300px}
 }
 @media (max-width: 520px) {
   .contact-shell,

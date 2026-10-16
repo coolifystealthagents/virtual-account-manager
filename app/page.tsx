@@ -17,14 +17,14 @@ const outcomes = [
 
 const steps = [
   ['Share your workflow', 'Show us how your team handles accounts today, including tools, handoffs, and approval points.'],
-  ['Build the playbook', 'We document the recurring work, communication rules, owners, and escalation paths.'],
+  ['Map the workflow', 'We document the recurring work, communication rules, owners, and escalation paths.'],
   ['Meet your support specialist', 'Your specialist learns the approved process and starts with a focused set of tasks.'],
   ['Improve the rhythm', 'Regular check-ins help you refine the workflow as your portfolio and priorities change.'],
 ];
 
 const faqs = [
   ['What does a virtual account manager do?', 'A virtual account manager supports the recurring coordination around customer accounts. That can include preparing account plans, organizing meetings, tracking renewal milestones, updating relationship records, routing requests, and keeping approved follow-ups visible.'],
-  ['Will they make commercial decisions for us?', 'No. Your team keeps control of pricing, commitments, sensitive negotiations, and final decisions. Support follows your approved playbooks and escalation rules.'],
+  ['Will they make commercial decisions for us?', 'No. Your team keeps control of pricing, commitments, sensitive negotiations, and final decisions. Support follows your approved processes and escalation rules.'],
   ['Can they work in our existing tools?', 'Yes. The workflow can be organized around the tools your team already uses, such as your CRM, shared documents, project boards, email, and meeting platforms.'],
   ['Which teams are a good fit?', 'This support is designed for B2B customer teams, agencies, professional service firms, and growing businesses with a portfolio of ongoing client relationships.'],
 ];
@@ -52,7 +52,7 @@ export default function Home() {
             <Link className="secondary-link" href="#how-it-works">See how it works</Link>
           </div>
           <ul className="hero-checks" aria-label="Service highlights">
-            <li><Icon name="check" />Built around your playbook</li>
+            <li><Icon name="check" />Aligned with your workflow</li>
             <li><Icon name="clock" />Works with your team and tools</li>
             <li><Icon name="shield" />You keep every key decision</li>
           </ul>
@@ -87,6 +87,10 @@ export default function Home() {
         <div className="grid service-grid">{site.services.slice(0,6).map((x,i)=><Link className="card service-card reveal" key={x[0]} href={'/services/'+slug(x[0])}><span className="service-icon"><Icon name={serviceIcons[i]} /></span><h3>{x[0]}</h3><p>{x[1]}</p><span className="card-link">Explore this service <span aria-hidden="true">→</span></span></Link>)}</div>
         <div className="section-action"><Link className="secondary-button" href="/services">View all services <span aria-hidden="true">→</span></Link></div>
       </div>
+    </section>
+
+    <section className="home-cta-split" aria-label="Get started">
+      <div className="wrap home-cta-split-inner"><div><p className="eyebrow">Start with one pressure point</p><h2>Too many accounts. Too little follow-through time.</h2></div><div><p>Bring us the workflow that keeps slipping. We will help you define the repeatable coordination work, the approval boundaries, and a practical first scope.</p><Link className="cta cta-light" href="/contact-us">Find your best starting point <span aria-hidden="true">→</span></Link></div></div>
     </section>
 
     <section className="section outcomes-section">

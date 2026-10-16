@@ -88,7 +88,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -183,7 +183,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -278,7 +278,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -373,7 +373,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -468,7 +468,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -563,7 +563,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -658,7 +658,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -753,7 +753,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -848,7 +848,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -943,7 +943,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -1038,7 +1038,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
@@ -1133,7 +1133,7 @@ export const october15Blog:October15Blog[]=[
       },
       {
         "q": "Can a virtual account manager own the final decision?",
-        "a": "A virtual account manager can prepare and coordinate work within an approved playbook. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
+        "a": "A virtual account manager can prepare and coordinate work within an approved process. Commercial, legal, security, privacy, and strategic decisions should remain with the organization’s authorized owners."
       },
       {
         "q": "How should the process be measured?",
