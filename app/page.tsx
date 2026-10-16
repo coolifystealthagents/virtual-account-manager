@@ -17,14 +17,14 @@ const outcomes = [
 
 const steps = [
   ['Share your workflow', 'Show us how your team handles accounts today, including tools, handoffs, and approval points.'],
-  ['Build the playbook', 'We document the recurring work, communication rules, owners, and escalation paths.'],
+  ['Map the workflow', 'We document the recurring work, communication rules, owners, and escalation paths.'],
   ['Meet your support specialist', 'Your specialist learns the approved process and starts with a focused set of tasks.'],
   ['Improve the rhythm', 'Regular check-ins help you refine the workflow as your portfolio and priorities change.'],
 ];
 
 const faqs = [
   ['What does a virtual account manager do?', 'A virtual account manager supports the recurring coordination around customer accounts. That can include preparing account plans, organizing meetings, tracking renewal milestones, updating relationship records, routing requests, and keeping approved follow-ups visible.'],
-  ['Will they make commercial decisions for us?', 'No. Your team keeps control of pricing, commitments, sensitive negotiations, and final decisions. Support follows your approved playbooks and escalation rules.'],
+  ['Will they make commercial decisions for us?', 'No. Your team keeps control of pricing, commitments, sensitive negotiations, and final decisions. Support follows your approved processes and escalation rules.'],
   ['Can they work in our existing tools?', 'Yes. The workflow can be organized around the tools your team already uses, such as your CRM, shared documents, project boards, email, and meeting platforms.'],
   ['Which teams are a good fit?', 'This support is designed for B2B customer teams, agencies, professional service firms, and growing businesses with a portfolio of ongoing client relationships.'],
 ];
@@ -45,7 +45,7 @@ export default function Home() {
             <Link className="secondary-link" href="#how-it-works">See how it works</Link>
           </div>
           <ul className="hero-checks" aria-label="Service highlights">
-            <li><Icon name="check" />Built around your playbook</li>
+            <li><Icon name="check" />Aligned with your workflow</li>
             <li><Icon name="clock" />Works with your team and tools</li>
             <li><Icon name="shield" />You keep every key decision</li>
           </ul>
