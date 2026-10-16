@@ -61,7 +61,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(org) }} />
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }} />
         <Script id="acr-config" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: tracker }} />
-        <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="lazyOnload" />
+        <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
       </body>
     </html>
   );
