@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { site } from "@/lib/site";
 import PageHero from "@/components/PageHero";
 import {
@@ -63,17 +64,13 @@ export default function Page() {
                 href={"/blog/" + x.slug}
                 key={x.slug}
               >
-                <span>{x.category}</span>
-                <h2>{x.title}</h2>
-                <time dateTime={x.published}>{x.label}</time>
-                <b>Read guide →</b>
+                <Image className="article-card-image" src={x.thumbnail} alt="" width={1200} height={630} sizes={i===0?'(max-width: 900px) 100vw, 900px':'(max-width: 620px) 100vw, 50vw'} priority={i===0}/>
+                <span className="article-card-copy"><span>{x.category}</span><h2>{x.title}</h2><time dateTime={x.published}>{x.label}</time><b>Read guide →</b></span>
               </Link>
             ))}
             {site.blog.map((x: any) => (
               <Link className="article-card" href={"/blog/" + x[0]} key={x[0]}>
-                <span>{x[2]}</span>
-                <h2>{x[1]}</h2>
-                <b>Read guide →</b>
+                <span className="article-card-copy"><span>{x[2]}</span><h2>{x[1]}</h2><b>Read guide →</b></span>
               </Link>
             ))}
           </div>
