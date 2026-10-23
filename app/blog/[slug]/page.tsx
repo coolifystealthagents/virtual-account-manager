@@ -11,11 +11,14 @@ import {
 import { october13Blog, october13Date } from "@/lib/october13-blog";
 import { october15Blog, october15Date } from "@/lib/october15-blog";
 import { october16Blog, october16Date } from "@/lib/october16-blog";
+import { october22Blog, october22Date } from "@/lib/october22-blog";
+import TocSync from "@/components/TocSync";
 
 const octoberBlog = [...october13Blog, ...october12Blog];
 
 export function generateStaticParams() {
   return [
+    ...october22Blog.map((x) => ({ slug: x.slug })),
     ...october16Blog.map((x) => ({ slug: x.slug })),
     ...october15Blog.map((x) => ({ slug: x.slug })),
     ...octoberBlog.map((x) => ({ slug: x.slug })),
@@ -28,7 +31,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const fresh = [...october16Blog, ...october15Blog, ...octoberBlog].find(
+  const fresh = [...october22Blog, ...october16Blog, ...october15Blog, ...octoberBlog].find(
     (x) => x.slug === slug,
   );
   if (fresh)
@@ -65,14 +68,15 @@ export default async function Blog({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const current = [...october16Blog, ...october15Blog].find(
+  const current = [...october22Blog, ...october16Blog, ...october15Blog].find(
     (x) => x.slug === slug,
   );
   if (current) {
     const isOctober16 = october16Blog.some((x) => x.slug === slug),
-      published = isOctober16 ? october16Date : october15Date,
-      publishedLabel = isOctober16 ? "October 16, 2026" : "October 15, 2026";
-    const related = (isOctober16 ? october16Blog : october15Blog)
+      isOctober22 = october22Blog.some((x) => x.slug === slug),
+      published = isOctober22 ? october22Date : isOctober16 ? october16Date : october15Date,
+      publishedLabel = isOctober22 ? "October 22, 2026" : isOctober16 ? "October 16, 2026" : "October 15, 2026";
+    const related = (isOctober22 ? october22Blog : isOctober16 ? october16Blog : october15Blog)
       .filter((x) => x.slug !== slug)
       .slice(0, 3);
     const schema = {
@@ -113,6 +117,7 @@ export default async function Blog({
     };
     return (
       <>
+        <TocSync />
         <section className="section">
           <div className="wrap">
             <p>

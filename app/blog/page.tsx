@@ -9,12 +9,18 @@ import {
 import { october13Blog, october13Date } from "@/lib/october13-blog";
 import { october15Blog, october15Date } from "@/lib/october15-blog";
 import { october16Blog, october16Date } from "@/lib/october16-blog";
+import { october22Blog, october22Date } from "@/lib/october22-blog";
 export const metadata = {
   title: "Blogs and practical insights",
   description: "Practical articles for " + site.audience + ".",
   alternates: { canonical: "/blog" },
 };
 const articles = [
+  ...october22Blog.map((x) => ({
+    ...x,
+    published: october22Date,
+    label: "October 22, 2026",
+  })),
   ...october16Blog.map((x) => ({
     ...x,
     published: october16Date,
