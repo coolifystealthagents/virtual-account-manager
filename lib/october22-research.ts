@@ -126,11 +126,11 @@ export const october22Research:October13Research[]=[
     ]
   },
   {
-    "slug": "renewal-risk-signal-review",
+    "slug": "renewal-risk-evidence-review",
     "title": "Renewal Risk Signals and Evidence Limits",
     "cluster": "Renewal management",
     "excerpt": "A review of usage, support, sentiment, and unresolved commitments as separate signals rather than a single risk score.",
-    "thumbnail": "/thumbnails/october-22/renewal-risk-signal-review.svg",
+    "thumbnail": "/thumbnails/october-22/renewal-risk-evidence-review.svg",
     "question": "How should an account team review renewal risk signals without turning a single status into proof of quality?",
     "method": "This brief uses a structured document review of public guidance and operational evidence. It does not use private client data or claim an account outcome.",
     "findings": [
