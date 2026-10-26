@@ -1,6 +1,7 @@
 import type { October13Research } from './october13';
 export const october25ResearchDate='2026-10-25';
-export const october25Research:October13Research[]=[
+type VamResearch = October13Research & { date: string };
+export const october25Research: VamResearch[] = [
   {
     "slug": "vam-access-removal",
     "title": "How Long Does Virtual Account Management Access Outlive the Assignment?",
@@ -173,7 +174,8 @@ export const october25Research:October13Research[]=[
         "label": "NIST Cybersecurity Framework 2.0",
         "url": "https://www.nist.gov/cyberframework"
       }
-    ]
+    ],
+    "date": "2026-10-25"
   },
   {
     "slug": "vam-handoff-completeness",
@@ -347,7 +349,8 @@ export const october25Research:October13Research[]=[
         "label": "HHS HIPAA Privacy Rule",
         "url": "https://www.hhs.gov/hipaa/for-professionals/privacy/index.html"
       }
-    ]
+    ],
+    "date": "2026-10-25"
   },
   {
     "slug": "vam-intake-reliability",
@@ -521,7 +524,8 @@ export const october25Research:October13Research[]=[
         "label": "NIST SP 800-128, Security-Focused Configuration Management",
         "url": "https://csrc.nist.gov/pubs/sp/800/128/final"
       }
-    ]
+    ],
+    "date": "2026-10-25"
   },
   {
     "slug": "vam-queue-aging",
@@ -695,7 +699,8 @@ export const october25Research:October13Research[]=[
         "label": "SBA Strengthen Your Cybersecurity",
         "url": "https://www.sba.gov/business-guide/manage-your-business/strengthen-your-cybersecurity"
       }
-    ]
+    ],
+    "date": "2026-10-25"
   },
   {
     "slug": "vam-reviewer-agreement",
@@ -869,6 +874,7 @@ export const october25Research:October13Research[]=[
         "label": "World Bank Philippines Overview",
         "url": "https://www.worldbank.org/en/country/philippines/overview"
       }
-    ]
+    ],
+    "date": "2026-10-25"
   }
 ];
