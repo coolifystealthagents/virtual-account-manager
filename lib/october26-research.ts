@@ -12,8 +12,8 @@ export const october26Research: VamResearch[] = [
     "method": "Review one declared virtual account management workflow per case, preserve the source and owner, and report limitations beside the finding.",
     "findings": [
       "How does evidence quality change across an aged virtual account management backlog, and which missing inputs account for the oldest unresolved items? The scope is the operational record for virtual account management, not the legal, financial, or clinical conclusion that may follow.",
-      "The study is deliberately narrow. It reports what the record can show in a defined population and window. It does not claim an industry rate or a causal staffing effect.",
-      "Items open at the start of a defined month and still open at the end, plus items closed during the month for comparison."
+      "Concrete example: a client request changes scope without a written approval. The account management specialist opens a client request log, records owner and next action and risk or escalation reason, and asks one precise question instead of filling the blank from memory. The item leaves the client request, renewal, escalation, and business-review queue only after the account director accepts the next action and the evidence link is attached.",
+      "For the \"how Does Evidence Quality Change Across an Aged Virtual Account Management Backlog?\" section, define the stopping condition before the account management specialist starts the task. The business-review brief should show owner and next action, client and account identifier, and the evidence that let the account director accept the result. If the item involves escalation lacks a named executive owner, document the reason and route the decision to the finance partner; a reopened item needs a new dated action, not a copied closure note."
     ],
     "sections": [
       {
@@ -22,7 +22,7 @@ export const october26Research: VamResearch[] = [
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "Items open at the start of a defined month and still open at the end, plus items closed during the month for comparison.\n\nThe unit is one backlog item at the review date. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
+        "body": "The client request, renewal, escalation, and business-review queue in client account management and renewals usually fails at the handoff, not at the first task. For the \"population and unit of analysis\" section, the account management specialist should capture the source, the version, the accountable account director, and the next review date in a client request log. If the item involves renewal date conflicts with the notice period, route it to the service delivery lead and keep the exception reason attached so a later reviewer can see why the normal path did not apply.\n\nThe unit is one backlog item at the review date. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
       },
       {
         "heading": "Definitions and measures",
@@ -135,8 +135,8 @@ export const october26Research: VamResearch[] = [
     "method": "Review one declared virtual account management workflow per case, preserve the source and owner, and report limitations beside the finding.",
     "findings": [
       "How often does the same virtual account management request enter the queue more than once, and which channels or missing keys make duplication more likely? The scope is the operational record for virtual account management, not the legal, financial, or clinical conclusion that may follow.",
-      "The study is deliberately narrow. It reports what the record can show in a defined population and window. It does not claim an industry rate or a causal staffing effect.",
-      "Requests received during a defined month, including requests later merged or withdrawn."
+      "The \"additional consideration for virtual account management\" control becomes fragile when the client request, renewal, escalation, and business-review queue is measured only by completed items. The account management specialist should record request and business impact and owner and next action, keep exceptions visible, and let the account director decide any commitment or scope change. The finance partner can then sample an account plan and compare requests acknowledged within the stated window against the work that remains open.",
+      "The control that matters for the \"additional consideration for virtual account management\" section is a short, reviewable record, not a longer checklist. The account management specialist captures risk or escalation reason and client and account identifier, labels a case involving client identity or contract owner is unclear, and leaves the decision with the account director. During the weekly review, compare escalations missing an owner with the unresolved items and note which fix changed the result."
     ],
     "sections": [
       {
@@ -145,7 +145,7 @@ export const october26Research: VamResearch[] = [
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "Requests received during a defined month, including requests later merged or withdrawn.\n\nThe unit is one request at intake, linked to a case key. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
+        "body": "For the \"population and unit of analysis\" section, define the stopping condition before the account management specialist starts the task. The renewal tracker should show owner and next action, contract and renewal date, and the evidence that let the account director accept the result. If the item involves client identity or contract owner is unclear, document the reason and route the decision to the client executive; a reopened item needs a new dated action, not a copied closure note.\n\nThe unit is one request at intake, linked to a case key. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
       },
       {
         "heading": "Definitions and measures",
@@ -258,8 +258,8 @@ export const october26Research: VamResearch[] = [
     "method": "Review one declared virtual account management workflow per case, preserve the source and owner, and report limitations beside the finding.",
     "findings": [
       "After a role change, can a new owner continue the open virtual account management work and commitments from the record alone? The scope is the operational record for virtual account management, not the legal, financial, or clinical conclusion that may follow.",
-      "The study is deliberately narrow. It reports what the record can show in a defined population and window. It does not claim an industry rate or a causal staffing effect.",
-      "Role changes during a defined quarter, including planned moves, leave, and turnover."
+      "Concrete example: an escalation reaches delivery without an executive owner. The account management specialist opens a client request log, records client and account identifier and risk or escalation reason, and asks one precise question instead of filling the blank from memory. The item leaves the client request, renewal, escalation, and business-review queue only after the account director accepts the next action and the evidence link is attached.",
+      "In practice, the account management specialist handles the \"additional consideration for virtual account management\" work by preparing a renewal tracker and naming the decision boundary. Include the source and retrieval date, risk or escalation reason, and the next action owner. When the item involves escalation lacks a named executive owner, the item goes to the service delivery lead with the evidence already checked; the client request, renewal, escalation, and business-review queue should show the hold, not hide it."
     ],
     "sections": [
       {
@@ -268,7 +268,7 @@ export const october26Research: VamResearch[] = [
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "Role changes during a defined quarter, including planned moves, leave, and turnover.\n\nThe unit is one role-change event and the open items at transfer. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
+        "body": "Within client account management and renewals, the \"population and unit of analysis\" control is only repeatable when the account management specialist can show an account plan behind each decision. Start with owner and next action, add risk or escalation reason, and attach the source and date before the item moves. If the item involves escalation lacks a named executive owner, hold the work in the client request, renewal, escalation, and business-review queue and route the choice to the account director; the account director should be able to reconstruct the next step without asking the preparer.\n\nThe unit is one role-change event and the open items at transfer. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
       },
       {
         "heading": "Definitions and measures",
@@ -381,8 +381,8 @@ export const october26Research: VamResearch[] = [
     "method": "Review one declared virtual account management workflow per case, preserve the source and owner, and report limitations beside the finding.",
     "findings": [
       "What share of virtual account management documents reach expiry without a recorded review, and which document types or owners account for the gap? The scope is the operational record for virtual account management, not the legal, financial, or clinical conclusion that may follow.",
-      "The study is deliberately narrow. It reports what the record can show in a defined population and window. It does not claim an industry rate or a causal staffing effect.",
-      "Documents with an expiry date in a defined quarter, including renewed, expired, and missing records."
+      "Concrete example: a client request changes scope without a written approval. The account management specialist opens an account plan, records request and business impact and contract and renewal date, and asks one precise question instead of filling the blank from memory. The item leaves the client request, renewal, escalation, and business-review queue only after the account director accepts the next action and the evidence link is attached.",
+      "The client request log is useful for the \"additional consideration for virtual account management\" control only if another person can audit it. The account management specialist records client and account identifier and risk or escalation reason, keeps the source attached, and marks a case involving escalation lacks a named executive owner with the owner who accepted it. Review renewals reviewed before the notice date during the weekly check and test one recent correction against the original evidence."
     ],
     "sections": [
       {
@@ -391,7 +391,7 @@ export const october26Research: VamResearch[] = [
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "Documents with an expiry date in a defined quarter, including renewed, expired, and missing records.\n\nThe unit is one document and its expiry date. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
+        "body": "The \"population and unit of analysis\" control becomes fragile when the client request, renewal, escalation, and business-review queue is measured only by completed items. The account management specialist should record risk or escalation reason and owner and next action, keep exceptions visible, and let the account director decide any commitment or scope change. The finance partner can then sample a business-review brief and compare accounts with a current account plan against the work that remains open.\n\nThe unit is one document and its expiry date. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
       },
       {
         "heading": "Definitions and measures",
@@ -504,8 +504,8 @@ export const october26Research: VamResearch[] = [
     "method": "Review one declared virtual account management workflow per case, preserve the source and owner, and report limitations beside the finding.",
     "findings": [
       "At first response, is every virtual account management inbox message claimed by one responder with a named decision owner? The scope is the operational record for virtual account management, not the legal, financial, or clinical conclusion that may follow.",
-      "The study is deliberately narrow. It reports what the record can show in a defined population and window. It does not claim an industry rate or a causal staffing effect.",
-      "Messages received during a defined week, including answered, unanswered, and reassigned messages."
+      "In practice, the account management specialist handles the \"additional consideration for virtual account management\" work by preparing an account plan and naming the decision boundary. Include the source and retrieval date, contract and renewal date, and the next action owner. When the item involves renewal date conflicts with the notice period, the item goes to the service delivery lead with the evidence already checked; the client request, renewal, escalation, and business-review queue should show the hold, not hide it.",
+      "Treat the \"additional consideration for virtual account management\" control as an evidence problem before treating it as a speed problem. The account management specialist can prepare a business-review brief, but the account director keeps the decision when the item involves client identity or contract owner is unclear. Record escalations missing an owner with its denominator and window, then use the weekly sample to check whether the same gap keeps returning."
     ],
     "sections": [
       {
@@ -514,7 +514,7 @@ export const october26Research: VamResearch[] = [
       },
       {
         "heading": "Population and unit of analysis",
-        "body": "Messages received during a defined week, including answered, unanswered, and reassigned messages.\n\nThe unit is one inbound message and its first claim. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
+        "body": "Ask what would let a new reviewer continue the \"population and unit of analysis\" work without a conversation. The answer is usually a client request log with the source, version, owner, and next action. If the item involves client identity or contract owner is unclear, the account management specialist pauses the item, records the gap, and routes one question to the account director; do not close the item just to keep the queue moving.\n\nThe unit is one inbound message and its first claim. Keeping the unit explicit prevents linked events from being counted as independent cases. Record openings, additions, withdrawals, resolutions, and unresolved end-of-window cases."
       },
       {
         "heading": "Definitions and measures",
