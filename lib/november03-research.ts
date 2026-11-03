@@ -1,6 +1,7 @@
 import type { October13Research } from './october13';
 export const november03ResearchDate='2026-11-03';
-export const november03Research: October13Research[] = [
+type November03Research = October13Research & { date: string };
+export const november03Research: November03Research[] = [
  {
   "slug": "vam03-account-review-cycle-study",
   "title": "Account review cycle time",
