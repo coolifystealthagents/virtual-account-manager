@@ -13,6 +13,7 @@ import { october22Blog, october22Date } from "@/lib/october22-blog";
 import { october25Blog, october25Date } from "@/lib/october25-blog";
 import { october26Blog, october26Date } from "@/lib/october26-blog";
 import { october27Blog, october27Date } from "@/lib/october27-blog";
+import { november03Blog, november03Date } from "@/lib/november03-blog";
 import { november02Blog, november02Date } from "@/lib/november02-blog";
 export const metadata = {
   title: "Blogs and practical insights",
@@ -20,6 +21,11 @@ export const metadata = {
   alternates: { canonical: "/blog" },
 };
 const articles = [
+  ...november03Blog.map((x) => ({
+    ...x,
+    published: november03Date,
+    label: "November 3, 2026",
+  })),
   ...november02Blog.map((x) => ({
     ...x,
     published: november02Date,

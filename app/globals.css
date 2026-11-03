@@ -790,3 +790,6 @@ body {
     display: block;
   }
 }
+
+/* Bound the sticky reading rail so long ToCs scroll internally. */
+.sidebar{max-height:calc(100vh - 130px);overflow-y:auto;overscroll-behavior:contain}
