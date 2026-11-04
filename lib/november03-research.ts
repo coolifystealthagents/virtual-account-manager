@@ -442,5 +442,460 @@ export const november03Research: November03Research[] = [
     "url": "https://www.sba.gov/business-guide/manage-your-business"
    }
   ]
+ },
+ {
+  "slug": "vam04-renewal-signature-cycle-time",
+  "title": "Renewal signature cycle time",
+  "cluster": "Renewal operations",
+  "excerpt": "A bounded protocol for renewal signature cycle in account management.",
+  "thumbnail": "/daily04/virtualaccountmanager/vam04-renewal-signature-cycle-time.webp",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03",
+  "visibleDate": "November 4, 2026",
+  "question": "Where does renewal signature cycle lose time or evidence in the account record?",
+  "method": "Case-level record review with a frozen window, a defined unit, and a second-reviewer reproduction check.",
+  "findings": [
+   "renewal signature cycle is measurable from the account record when the owner and close event are stored.",
+   "Missing evidence is usually an intake or routing gap.",
+   "One testable change and a re-measure date are the useful output."
+  ],
+  "sections": [
+   {
+    "heading": "Question and decision scope",
+    "body": "Before work begins on renewal signature cycle, confirm which entity, period, and queue the case belongs to and who accepts the outcome. Give the case a stable identifier before any document is attached. Confirm that the request belongs in this queue before assigning an owner. State explicitly what is in scope and what is out of scope for the case. If the team cannot reproduce the result from the record, the control is not finished. In this renewal signature cycle case, the record points to the account record and names the account manager as the decision owner. State explicitly what is in scope and what is out of scope for the case. Distinguish a new request from a correction to an earlier one. If the team cannot reproduce the result from the record, the control is not finished. For renewal signature cycle, compare contract draft with the destination value rather than relying on a status label."
+   },
+   {
+    "heading": "Population and unit",
+    "body": "The evidence set for renewal signature cycle should join contract draft, signature request, client record, and confirmation on one stable case reference. Name the owner for every open item, including items waiting on someone else. Use the same case key in the queue and in the evidence extract. Do not treat a screenshot as a substitute for the system record. If the team cannot reproduce the result from the record, the control is not finished. For renewal signature cycle, the working file keeps contract draft and signature request beside the decision note. Keep the original request so a later correction does not erase the reason for the work. Use the same case key in the queue and in the evidence extract. A clean-looking status is not evidence that the underlying work is correct. The renewal signature cycle record should let a second reviewer rebuild the decision from signature request and client record."
+   },
+   {
+    "heading": "Definitions and measures",
+    "body": "Write the renewal signature cycle authority limit into the case template, including the amount, scope, and end date of any delegation. Name the owner for every open item, including items waiting on someone else. Do not let a deadline expand a role beyond its written limit. Approval, payment, records disposition, and policy exceptions stay with the named owner. Record rejected and deferred requests as well as approvals. The renewal signature cycle case note should show what the account record held at the time and who reviewed it. A complete packet is not an approval; the decision needs a person and a timestamp. Keep the original request so a later correction does not erase the reason for the work. Do not let a deadline expand a role beyond its written limit. A renewal signature cycle exception keeps confirmation attached and routes the question to the account manager."
+   },
+   {
+    "heading": "Evidence dictionary",
+    "body": "A renewal signature cycle status update should point to a verifiable event in the account record, not to a feeling about progress. Assign every unowned case before new work begins. Escalate an item that has waited past the written threshold. Do not let a deadline expand a role beyond its written limit. A clean-looking status is not evidence that the underlying work is correct. Apply the same renewal signature cycle test to client record and to the value that survives in the account record. The record should show the source, the decision, and the surviving value in one place. Use the same definition across the queue and the review so the counts agree. A case with no next action is an exception even if it says in progress. In the renewal signature cycle queue, an item without a next action is treated as an exception."
+   },
+   {
+    "heading": "Sampling and collection",
+    "body": "A repeated renewal signature cycle exception becomes a reason code in the queue, not a story retold in each thread. Check whether the exception came from a form, a rule, or a permission. Record who released the dependent action and when. If the team cannot reproduce the result from the record, the control is not finished. The record should show the source, the decision, and the surviving value in one place. The renewal signature cycle reviewer records confirmation, the owner, and the next action in one place. A short written rule is easier to test than an unwritten habit. Record who released the dependent action and when. A clean-looking status is not evidence that the underlying work is correct. The renewal signature cycle close note cites the account record, the approver, and the time of the final check."
+   },
+   {
+    "heading": "Analysis and reporting",
+    "body": "Close renewal signature cycle only when the destination value in the account record, the approver, and the time of the final check are all visible. Record the approximate value, the approver, and the final check time. A closed status is not proof that the destination changed. Keep the prior value so the change can be explained. If the team cannot reproduce the result from the record, the control is not finished. Every renewal signature cycle handoff names the account manager and the field in the account record that will confirm the change. If the team cannot reproduce the result from the record, the control is not finished. The next reviewer should not have to ask which document is authoritative. Compare the destination field, not only the activity log. A sample renewal signature cycle review checks contract draft, signature request, and the surviving value in the account record."
+   },
+   {
+    "heading": "Limitations",
+    "body": "The renewal signature cycle review should separate the ordinary case, the reopened case, the missing-evidence case, and the cross-owner handoff. The record should show the source, the decision, and the surviving value in one place. Do not let a deadline expand a role beyond its written limit. Name the owner for every open item, including items waiting on someone else. A short written rule is easier to test than an unwritten habit. For renewal signature cycle, compare contract draft with the destination value rather than relying on a status label. Include a routine case, a reopened case, and a cross-owner handoff. Do not let a deadline expand a role beyond its written limit. Name the owner for every open item, including items waiting on someone else. In this renewal signature cycle case, the record points to the account record and names the account manager as the decision owner."
+   },
+   {
+    "heading": "Review and next action",
+    "body": "Label contract draft and signature request with their versions so a later reviewer can tell a stale extract from a current one. Record event time separately from entry time. Use the approved repository for sensitive content. Use the same definition across the queue and the review so the counts agree. The record should show the source, the decision, and the surviving value in one place. The renewal signature cycle record should let a second reviewer rebuild the decision from signature request and client record. Do not let a deadline expand a role beyond its written limit. Make the handoff readable by the next shift and the next auditor. If the team cannot reproduce the result from the record, the control is not finished. For renewal signature cycle, the working file keeps contract draft and signature request beside the decision note."
+   }
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ]
+ },
+ {
+  "slug": "vam04-escalation-credit-evidence",
+  "title": "Escalation credit evidence",
+  "cluster": "Account operations",
+  "excerpt": "A bounded protocol for escalation credit evidence in account management.",
+  "thumbnail": "/daily04/virtualaccountmanager/vam04-escalation-credit-evidence.webp",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03",
+  "visibleDate": "November 4, 2026",
+  "question": "Where does escalation credit evidence lose time or evidence in the account record?",
+  "method": "Case-level record review with a frozen window, a defined unit, and a second-reviewer reproduction check.",
+  "findings": [
+   "escalation credit evidence is measurable from the account record when the owner and close event are stored.",
+   "Missing evidence is usually an intake or routing gap.",
+   "One testable change and a re-measure date are the useful output."
+  ],
+  "sections": [
+   {
+    "heading": "Question and decision scope",
+    "body": "The escalation credit evidence note should separate the request, the decision that is still open, and the person who can close it. A short written rule is easier to test than an unwritten habit. State explicitly what is in scope and what is out of scope for the case. Name the owner for every open item, including items waiting on someone else. Separate the request from the decision, because a complete request is not an approval. The escalation credit evidence record should let a second reviewer rebuild the decision from credit note and approval. The record should show the source, the decision, and the surviving value in one place. Confirm that the request belongs in this queue before assigning an owner. If the team cannot reproduce the result from the record, the control is not finished. For escalation credit evidence, the working file keeps escalation record and credit note beside the decision note."
+   },
+   {
+    "heading": "Population and unit",
+    "body": "Map each escalation credit evidence value to its source: escalation record for the request, credit note for the check, and the account record for the surviving destination value. Keep the original request so a later correction does not erase the reason for the work. Record who supplied each document and when it arrived. Preserve a conflicting value instead of overwriting the first one. Name the owner for every open item, including items waiting on someone else. A escalation credit evidence exception keeps client notice attached and routes the question to the account manager. Link each value to the field or page that supports it. A case that moves between owners should keep both owner periods visible. Name the repository where sensitive evidence is held. The escalation credit evidence case note should show what the account record held at the time and who reviewed it."
+   },
+   {
+    "heading": "Definitions and measures",
+    "body": "The the account manager owns the decision in escalation credit evidence; the preparer may compare, label, and route but may not approve the outcome. Do not let a deadline expand a role beyond its written limit. Keep the original request so a later correction does not erase the reason for the work. Do not let a familiar requester bypass the approval boundary. When urgency presses against the limit, pause and route the decision. In the escalation credit evidence queue, an item without a next action is treated as an exception. Name the owner for every open item, including items waiting on someone else. Do not let a familiar requester bypass the approval boundary. When urgency presses against the limit, pause and route the decision. Apply the same escalation credit evidence test to approval and to the value that survives in the account record."
+   },
+   {
+    "heading": "Evidence dictionary",
+    "body": "Each morning the team reviews escalation credit evidence arrivals, items waiting on the the account manager, and items ready for a verified close. Do not let a deadline expand a role beyond its written limit. The record should show the source, the decision, and the surviving value in one place. Log the handoff time when a case crosses a shift. A short written rule is easier to test than an unwritten habit. The escalation credit evidence close note cites the account record, the approver, and the time of the final check. A case that moves between owners should keep both owner periods visible. Use the same definition across the queue and the review so the counts agree. Log the handoff time when a case crosses a shift. The escalation credit evidence reviewer records client notice, the owner, and the next action in one place."
+   },
+   {
+    "heading": "Sampling and collection",
+    "body": "If the record does not match the surviving value, stop the dependent action and log the conflict in the account record rather than choosing the more convenient value. Do not let a deadline expand a role beyond its written limit. Do not rewrite the earlier record to match the later answer. If the team cannot reproduce the result from the record, the control is not finished. Separate a data conflict from a policy conflict. A sample escalation credit evidence review checks escalation record, credit note, and the surviving value in the account record. Use the same definition across the queue and the review so the counts agree. Route one bounded question to the owner instead of negotiating in the queue. If the team cannot reproduce the result from the record, the control is not finished. Every escalation credit evidence handoff names the account manager and the field in the account record that will confirm the change."
+   },
+   {
+    "heading": "Analysis and reporting",
+    "body": "Record the escalation credit evidence close reason, the approver, and the surviving evidence reference in the same case note. Do not let a deadline expand a role beyond its written limit. Compare the destination field, not only the activity log. If the team cannot reproduce the result from the record, the control is not finished. Name the owner for every open item, including items waiting on someone else. In this escalation credit evidence case, the record points to the account record and names the account manager as the decision owner. If the destination is another team, require an acknowledgment. Do not let a deadline expand a role beyond its written limit. Test one closed case by rebuilding it from the evidence map. For escalation credit evidence, compare escalation record with the destination value rather than relying on a status label."
+   },
+   {
+    "heading": "Limitations",
+    "body": "Review escalation credit evidence with a sample drawn from the queue export before the meeting, so the discussion cannot drift to memorable cases. Name the owner for every open item, including items waiting on someone else. If the team cannot reproduce the result from the record, the control is not finished. Report a null result as clearly as a positive one. A short written rule is easier to test than an unwritten habit. For escalation credit evidence, the working file keeps escalation record and credit note beside the decision note. End the review with one change and one measure. Include a routine case, a reopened case, and a cross-owner handoff. Separate what was observed from what the team believes caused it. The escalation credit evidence record should let a second reviewer rebuild the decision from credit note and approval."
+   },
+   {
+    "heading": "Review and next action",
+    "body": "The escalation credit evidence working paper should show the request, the source, the decision, the action, and the surviving value without a private inbox. Link the evidence to the exact field it supports. Avoid a private second version in a personal document. A short written rule is easier to test than an unwritten habit. Label the version of every file that can change. The escalation credit evidence case note should show what the account record held at the time and who reviewed it. A case that moves between owners should keep both owner periods visible. Do not let a deadline expand a role beyond its written limit. If the team cannot reproduce the result from the record, the control is not finished. A escalation credit evidence exception keeps client notice attached and routes the question to the account manager."
+   }
+  ],
+  "sources": [
+   {
+    "label": "AICPA & CIMA",
+    "url": "https://www.aicpa-cima.com/"
+   },
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ]
+ },
+ {
+  "slug": "vam04-stakeholder-map-accuracy",
+  "title": "Stakeholder map accuracy",
+  "cluster": "Account administration",
+  "excerpt": "A bounded protocol for stakeholder map accuracy in account management.",
+  "thumbnail": "/daily04/virtualaccountmanager/vam04-stakeholder-map-accuracy.webp",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03",
+  "visibleDate": "November 4, 2026",
+  "question": "Where does stakeholder map accuracy lose time or evidence in the account record?",
+  "method": "Case-level record review with a frozen window, a defined unit, and a second-reviewer reproduction check.",
+  "findings": [
+   "stakeholder map accuracy is measurable from the account record when the owner and close event are stored.",
+   "Missing evidence is usually an intake or routing gap.",
+   "One testable change and a re-measure date are the useful output."
+  ],
+  "sections": [
+   {
+    "heading": "Question and decision scope",
+    "body": "Start stakeholder map accuracy with one bounded case, a named owner, and a written statement of what the reviewer is being asked to decide. Do not let a deadline expand a role beyond its written limit. Keep the original request so a later correction does not erase the reason for the work. Use the same definition across the queue and the review so the counts agree. Name the trigger that brought the case into the queue. The stakeholder map accuracy case note should show what the account record held at the time and who reviewed it. The record should show the source, the decision, and the surviving value in one place. The next reviewer should not have to ask which document is authoritative. Note the observation window; a case without a period cannot be compared later. A stakeholder map accuracy exception keeps crm update attached and routes the question to the account manager."
+   },
+   {
+    "heading": "Population and unit",
+    "body": "A reviewer should be able to rebuild stakeholder map accuracy from client confirmation, crm update, and the the account record record without asking for a private screenshot. Keep a version label on every file that can change. Name the owner for every open item, including items waiting on someone else. Use the same case key in the queue and in the evidence extract. If the team cannot reproduce the result from the record, the control is not finished. Apply the same stakeholder map accuracy test to client confirmation and to the value that survives in the account record. Keep the original document and the working copy in separate states. Do not let a deadline expand a role beyond its written limit. Use the same case key in the queue and in the evidence extract. In the stakeholder map accuracy queue, an item without a next action is treated as an exception."
+   },
+   {
+    "heading": "Definitions and measures",
+    "body": "A standing instruction for stakeholder map accuracy needs a limit and an expiry, and the the account manager should confirm it is still current. If the team cannot reproduce the result from the record, the control is not finished. Keep emergency authority narrow and followed by a review note. Preparation, comparison, and follow-up may sit with the assistant. Approval, payment, records disposition, and policy exceptions stay with the named owner. The stakeholder map accuracy reviewer records crm update, the owner, and the next action in one place. Keep the original request so a later correction does not erase the reason for the work. The next reviewer should not have to ask which document is authoritative. A case that moves between owners should keep both owner periods visible. The stakeholder map accuracy close note cites the account record, the approver, and the time of the final check."
+   },
+   {
+    "heading": "Evidence dictionary",
+    "body": "The daily stakeholder map accuracy pass starts with the oldest item, the unassigned handoff, and the case paused for more than two business days. Use the same definition across the queue and the review so the counts agree. A short written rule is easier to test than an unwritten habit. Log the handoff time when a case crosses a shift. Name the owner for every open item, including items waiting on someone else. Every stakeholder map accuracy handoff names the account manager and the field in the account record that will confirm the change. Record one next action and one due time per open item. Open the day with a queue pass by age, owner, and missing evidence. Compare arrivals and completions, not only the backlog total. A sample stakeholder map accuracy review checks stakeholder list, role change, and the surviving value in the account record."
+   },
+   {
+    "heading": "Sampling and collection",
+    "body": "The stakeholder map accuracy exception record should name the condition, the decision, the releaser, and the time the dependent action resumed. If the exception repeats, give it a reason code. The record should show the source, the decision, and the surviving value in one place. When access blocks the work, name the system, role, and approver. Preserve both values and the time each was observed. For stakeholder map accuracy, compare stakeholder list with the destination value rather than relying on a status label. Check whether the exception came from a form, a rule, or a permission. Route one bounded question to the owner instead of negotiating in the queue. Do not rewrite the earlier record to match the later answer. In this stakeholder map accuracy case, the record points to the account record and names the account manager as the decision owner."
+   },
+   {
+    "heading": "Analysis and reporting",
+    "body": "If stakeholder map accuracy hands work to another team, keep it open until that team acknowledges receipt and the surviving record is confirmed. Note the next review date before closing. Reopen the case when the destination value is disputed. The record should show the source, the decision, and the surviving value in one place. If the team cannot reproduce the result from the record, the control is not finished. The stakeholder map accuracy record should let a second reviewer rebuild the decision from role change and client confirmation. Compare the destination field, not only the activity log. A clean-looking status is not evidence that the underlying work is correct. Name the owner for every open item, including items waiting on someone else. For stakeholder map accuracy, the working file keeps stakeholder list and role change beside the decision note."
+   },
+   {
+    "heading": "Limitations",
+    "body": "A useful stakeholder map accuracy review ends with one testable change, one owner, and a date to measure whether the change moved the result. Choose the sample from the export before the meeting. If the team cannot reproduce the result from the record, the control is not finished. A short written rule is easier to test than an unwritten habit. Keep the original request so a later correction does not erase the reason for the work. A stakeholder map accuracy exception keeps crm update attached and routes the question to the account manager. A short written rule is easier to test than an unwritten habit. Check whether the definition changed during the period. Name the owner for every open item, including items waiting on someone else. The stakeholder map accuracy case note should show what the account record held at the time and who reviewed it."
+   },
+   {
+    "heading": "Review and next action",
+    "body": "Keep the stakeholder map accuracy record short enough to read during the day and specific enough to survive a later audit. Archive the extract with the study so it can be repeated. Label the version of every file that can change. Keep the source reference and the coded value in the same row. Keep the note short enough to read with the case. In the stakeholder map accuracy queue, an item without a next action is treated as an exception. Do not store credentials or unnecessary personal data in the case. The record should show the source, the decision, and the surviving value in one place. Keep the source reference and the coded value in the same row. Apply the same stakeholder map accuracy test to client confirmation and to the value that survives in the account record."
+   }
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ]
+ },
+ {
+  "slug": "vam04-report-delivery-completeness",
+  "title": "Report delivery completeness",
+  "cluster": "Reporting",
+  "excerpt": "A bounded protocol for report delivery completeness in account management.",
+  "thumbnail": "/daily04/virtualaccountmanager/vam04-report-delivery-completeness.webp",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03",
+  "visibleDate": "November 4, 2026",
+  "question": "Where does report delivery completeness lose time or evidence in the account record?",
+  "method": "Case-level record review with a frozen window, a defined unit, and a second-reviewer reproduction check.",
+  "findings": [
+   "report delivery completeness is measurable from the account record when the owner and close event are stored.",
+   "Missing evidence is usually an intake or routing gap.",
+   "One testable change and a re-measure date are the useful output."
+  ],
+  "sections": [
+   {
+    "heading": "Question and decision scope",
+    "body": "For report delivery completeness, the first step is to write the open decision, the requesting role, and the queue owner before anyone touches the account record. The record should show the source, the decision, and the surviving value in one place. The next reviewer should not have to ask which document is authoritative. Use the same definition across the queue and the review so the counts agree. Record the queue and the entity so the case cannot drift into another team's work. In the report delivery completeness queue, an item without a next action is treated as an exception. Record the requester and the promised response time. Note the observation window; a case without a period cannot be compared later. Confirm that the request belongs in this queue before assigning an owner. Apply the same report delivery completeness test to client receipt and to the value that survives in the account record."
+   },
+   {
+    "heading": "Population and unit",
+    "body": "Attach report draft and delivery log to the case, label their versions, and record the time each was observed. The record should show the source, the decision, and the surviving value in one place. Do not let a deadline expand a role beyond its written limit. Keep the original document and the working copy in separate states. Mark missing evidence as missing, with a reason, rather than leaving a blank. The report delivery completeness close note cites the account record, the approver, and the time of the final check. A case that moves between owners should keep both owner periods visible. Keep the original request so a later correction does not erase the reason for the work. Compare the source and the destination values before drawing a conclusion. The report delivery completeness reviewer records version note, the owner, and the next action in one place."
+   },
+   {
+    "heading": "Definitions and measures",
+    "body": "When report delivery completeness changes a record in the account record, the the account manager approves and the preparer records the action; the two roles stay separate. If the team cannot reproduce the result from the record, the control is not finished. Use the same definition across the queue and the review so the counts agree. A complete packet is not an approval; the decision needs a person and a timestamp. Keep emergency authority narrow and followed by a review note. A sample report delivery completeness review checks report draft, delivery log, and the surviving value in the account record. A delegation needs a scope, a limit, an end date, and a named backup. Keep the original request so a later correction does not erase the reason for the work. Name the backup owner and the coverage window in advance. Every report delivery completeness handoff names the account manager and the field in the account record that will confirm the change."
+   },
+   {
+    "heading": "Evidence dictionary",
+    "body": "End the report delivery completeness shift with an owner, a next action, and a due time on every open case. Open the day with a queue pass by age, owner, and missing evidence. Record one next action and one due time per open item. Compare arrivals and completions, not only the backlog total. Use the same definition across the queue and the review so the counts agree. In this report delivery completeness case, the record points to the account record and names the account manager as the decision owner. Assign every unowned case before new work begins. Escalate an item that has waited past the written threshold. A clean-looking status is not evidence that the underlying work is correct. For report delivery completeness, compare report draft with the destination value rather than relying on a status label."
+   },
+   {
+    "heading": "Sampling and collection",
+    "body": "When the record does not match the surviving value, preserve both versions, record the observation times, and route one answerable question to the the account manager. Check whether the exception came from a form, a rule, or a permission. Keep the original request so a later correction does not erase the reason for the work. A short written rule is easier to test than an unwritten habit. The record should show the source, the decision, and the surviving value in one place. For report delivery completeness, the working file keeps report draft and delivery log beside the decision note. Do not let a deadline expand a role beyond its written limit. Do not close a case just because the requester stopped asking. A case that moves between owners should keep both owner periods visible. The report delivery completeness record should let a second reviewer rebuild the decision from delivery log and client receipt."
+   },
+   {
+    "heading": "Analysis and reporting",
+    "body": "The final report delivery completeness check compares version note with the surviving value in the account record; a status label alone is not a close. Note the next review date before closing. The record should show the source, the decision, and the surviving value in one place. Do not let a deadline expand a role beyond its written limit. Keep the prior value so the change can be explained. The report delivery completeness case note should show what the account record held at the time and who reviewed it. Record the close reason with the same codes used in the exception queue. Do not let a deadline expand a role beyond its written limit. The record should show the source, the decision, and the surviving value in one place. A report delivery completeness exception keeps version note attached and routes the question to the account manager."
+   },
+   {
+    "heading": "Limitations",
+    "body": "Report report delivery completeness open cases by age and dependency, not only the total, because a stable total can hide an aging tail. Use case-level review to explain an outlier before calling it a trend. Use the same definition across the queue and the review so the counts agree. Keep the original request so a later correction does not erase the reason for the work. End the review with one change and one measure. Apply the same report delivery completeness test to client receipt and to the value that survives in the account record. A stable total can hide a growing tail. If the team cannot reproduce the result from the record, the control is not finished. Choose the sample from the export before the meeting. In the report delivery completeness queue, an item without a next action is treated as an exception."
+   },
+   {
+    "heading": "Review and next action",
+    "body": "Store sensitive report delivery completeness evidence in the approved repository and keep only the reference and access path in the analysis note. Use the approved repository for sensitive content. Keep the original request so a later correction does not erase the reason for the work. Do not let a deadline expand a role beyond its written limit. Keep the note short enough to read with the case. The report delivery completeness reviewer records version note, the owner, and the next action in one place. Make the handoff readable by the next shift and the next auditor. Write the note so a reviewer can reconstruct the decision without a meeting. Link the evidence to the exact field it supports. The report delivery completeness close note cites the account record, the approver, and the time of the final check."
+   }
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ]
+ },
+ {
+  "slug": "vam04-tool-access-review-coverage",
+  "title": "Tool access review coverage",
+  "cluster": "Access control",
+  "excerpt": "A bounded protocol for tool access review coverage in account management.",
+  "thumbnail": "/daily04/virtualaccountmanager/vam04-tool-access-review-coverage.webp",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03",
+  "visibleDate": "November 4, 2026",
+  "question": "Where does tool access review coverage lose time or evidence in the account record?",
+  "method": "Case-level record review with a frozen window, a defined unit, and a second-reviewer reproduction check.",
+  "findings": [
+   "tool access review coverage is measurable from the account record when the owner and close event are stored.",
+   "Missing evidence is usually an intake or routing gap.",
+   "One testable change and a re-measure date are the useful output."
+  ],
+  "sections": [
+   {
+    "heading": "Question and decision scope",
+    "body": "Before work begins on tool access review coverage, confirm which entity, period, and queue the case belongs to and who accepts the outcome. Distinguish a new request from a correction to an earlier one. Name the owner for every open item, including items waiting on someone else. Record the queue and the entity so the case cannot drift into another team's work. If the team cannot reproduce the result from the record, the control is not finished. The tool access review coverage reviewer records review note, the owner, and the next action in one place. The record should show the source, the decision, and the surviving value in one place. A clean-looking status is not evidence that the underlying work is correct. Separate the request from the decision, because a complete request is not an approval. The tool access review coverage close note cites the account record, the approver, and the time of the final check."
+   },
+   {
+    "heading": "Population and unit",
+    "body": "The evidence set for tool access review coverage should join access inventory, role list, removal receipt, and review note on one stable case reference. Do not treat a screenshot as a substitute for the system record. A short written rule is easier to test than an unwritten habit. Name the repository where sensitive evidence is held. State whether the evidence is confirmed, inferred, or unavailable. Every tool access review coverage handoff names the account manager and the field in the account record that will confirm the change. Mark missing evidence as missing, with a reason, rather than leaving a blank. Compare the source and the destination values before drawing a conclusion. If the team cannot reproduce the result from the record, the control is not finished. A sample tool access review coverage review checks access inventory, role list, and the surviving value in the account record."
+   },
+   {
+    "heading": "Definitions and measures",
+    "body": "Write the tool access review coverage authority limit into the case template, including the amount, scope, and end date of any delegation. A case that moves between owners should keep both owner periods visible. Do not let a deadline expand a role beyond its written limit. Name the owner for every open item, including items waiting on someone else. Do not let a familiar requester bypass the approval boundary. For tool access review coverage, compare access inventory with the destination value rather than relying on a status label. A delegation needs a scope, a limit, an end date, and a named backup. Write the authority limit into the case template. When urgency presses against the limit, pause and route the decision. In this tool access review coverage case, the record points to the account record and names the account manager as the decision owner."
+   },
+   {
+    "heading": "Evidence dictionary",
+    "body": "A tool access review coverage status update should point to a verifiable event in the account record, not to a feeling about progress. Open the day with a queue pass by age, owner, and missing evidence. Do not let a status update stand in for a verified event. Do not let a deadline expand a role beyond its written limit. A short written rule is easier to test than an unwritten habit. The tool access review coverage record should let a second reviewer rebuild the decision from role list and removal receipt. Use the same definition across the queue and the review so the counts agree. Open the day with a queue pass by age, owner, and missing evidence. A case that moves between owners should keep both owner periods visible. For tool access review coverage, the working file keeps access inventory and role list beside the decision note."
+   },
+   {
+    "heading": "Sampling and collection",
+    "body": "A repeated tool access review coverage exception becomes a reason code in the queue, not a story retold in each thread. Use the same definition across the queue and the review so the counts agree. When access blocks the work, name the system, role, and approver. A short written rule is easier to test than an unwritten habit. A clean-looking status is not evidence that the underlying work is correct. A tool access review coverage exception keeps review note attached and routes the question to the account manager. Do not rewrite the earlier record to match the later answer. Route one bounded question to the owner instead of negotiating in the queue. When access blocks the work, name the system, role, and approver. The tool access review coverage case note should show what the account record held at the time and who reviewed it."
+   },
+   {
+    "heading": "Analysis and reporting",
+    "body": "Close tool access review coverage only when the destination value in the account record, the approver, and the time of the final check are all visible. The record should show the source, the decision, and the surviving value in one place. Test one closed case by rebuilding it from the evidence map. Note the next review date before closing. Do not let a deadline expand a role beyond its written limit. In the tool access review coverage queue, an item without a next action is treated as an exception. Keep the original request so a later correction does not erase the reason for the work. A closed status is not proof that the destination changed. Note the next review date before closing. Apply the same tool access review coverage test to removal receipt and to the value that survives in the account record."
+   },
+   {
+    "heading": "Limitations",
+    "body": "The tool access review coverage review should separate the ordinary case, the reopened case, the missing-evidence case, and the cross-owner handoff. Separate what was observed from what the team believes caused it. Set the next review date before the action begins. The next reviewer should not have to ask which document is authoritative. Report a null result as clearly as a positive one. The tool access review coverage close note cites the account record, the approver, and the time of the final check. Check whether the definition changed during the period. A short written rule is easier to test than an unwritten habit. Name the owner for every open item, including items waiting on someone else. The tool access review coverage reviewer records review note, the owner, and the next action in one place."
+   },
+   {
+    "heading": "Review and next action",
+    "body": "Label access inventory and role list with their versions so a later reviewer can tell a stale extract from a current one. Link the evidence to the exact field it supports. If the team cannot reproduce the result from the record, the control is not finished. Record event time separately from entry time. A short written rule is easier to test than an unwritten habit. A sample tool access review coverage review checks access inventory, role list, and the surviving value in the account record. Use the same definition across the queue and the review so the counts agree. A case that moves between owners should keep both owner periods visible. Keep the note short enough to read with the case. Every tool access review coverage handoff names the account manager and the field in the account record that will confirm the change."
+   }
+  ],
+  "sources": [
+   {
+    "label": "NIST Cybersecurity Framework",
+    "url": "https://www.nist.gov/cyberframework"
+   },
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ]
+ },
+ {
+  "slug": "vam04-agenda-adherence",
+  "title": "Agenda adherence",
+  "cluster": "Meeting operations",
+  "excerpt": "A bounded protocol for agenda adherence in account management.",
+  "thumbnail": "/daily04/virtualaccountmanager/vam04-agenda-adherence.webp",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03",
+  "visibleDate": "November 4, 2026",
+  "question": "Where does agenda adherence lose time or evidence in the account record?",
+  "method": "Case-level record review with a frozen window, a defined unit, and a second-reviewer reproduction check.",
+  "findings": [
+   "agenda adherence is measurable from the account record when the owner and close event are stored.",
+   "Missing evidence is usually an intake or routing gap.",
+   "One testable change and a re-measure date are the useful output."
+  ],
+  "sections": [
+   {
+    "heading": "Question and decision scope",
+    "body": "The agenda adherence note should separate the request, the decision that is still open, and the person who can close it. Record the queue and the entity so the case cannot drift into another team's work. State explicitly what is in scope and what is out of scope for the case. Keep the original request so a later correction does not erase the reason for the work. A clean-looking status is not evidence that the underlying work is correct. A sample agenda adherence review checks agenda draft, attendee list, and the surviving value in the account record. Say which system of record governs if two sources disagree. Record the queue and the entity so the case cannot drift into another team's work. Use the same definition across the queue and the review so the counts agree. Every agenda adherence handoff names the account manager and the field in the account record that will confirm the change."
+   },
+   {
+    "heading": "Population and unit",
+    "body": "Map each agenda adherence value to its source: agenda draft for the request, attendee list for the check, and the account record for the surviving destination value. Keep the original document and the working copy in separate states. Use the same definition across the queue and the review so the counts agree. Keep a version label on every file that can change. A short written rule is easier to test than an unwritten habit. In this agenda adherence case, the record points to the account record and names the account manager as the decision owner. Record who supplied each document and when it arrived. A case that moves between owners should keep both owner periods visible. A clean-looking status is not evidence that the underlying work is correct. For agenda adherence, compare agenda draft with the destination value rather than relying on a status label."
+   },
+   {
+    "heading": "Definitions and measures",
+    "body": "The the account manager owns the decision in agenda adherence; the preparer may compare, label, and route but may not approve the outcome. Record rejected and deferred requests as well as approvals. Preparation, comparison, and follow-up may sit with the assistant. If two roles share a queue, mark which one decides each item. Do not let a familiar requester bypass the approval boundary. For agenda adherence, the working file keeps agenda draft and attendee list beside the decision note. A delegation needs a scope, a limit, an end date, and a named backup. A short written rule is easier to test than an unwritten habit. A clean-looking status is not evidence that the underlying work is correct. The agenda adherence record should let a second reviewer rebuild the decision from attendee list and client input."
+   },
+   {
+    "heading": "Evidence dictionary",
+    "body": "Each morning the team reviews agenda adherence arrivals, items waiting on the the account manager, and items ready for a verified close. Escalate an item that has waited past the written threshold. Keep the queue view readable on one screen. A handoff is complete only when the receiver acknowledges it. The record should show the source, the decision, and the surviving value in one place. The agenda adherence case note should show what the account record held at the time and who reviewed it. Compare arrivals and completions, not only the backlog total. Use the same definition across the queue and the review so the counts agree. Check that the owner is actually available before assigning. A agenda adherence exception keeps approval attached and routes the question to the account manager."
+   },
+   {
+    "heading": "Sampling and collection",
+    "body": "If the record does not match the surviving value, stop the dependent action and log the conflict in the account record rather than choosing the more convenient value. The record should show the source, the decision, and the surviving value in one place. Do not let a deadline expand a role beyond its written limit. If the exception repeats, give it a reason code. When access blocks the work, name the system, role, and approver. Apply the same agenda adherence test to client input and to the value that survives in the account record. Do not close a case just because the requester stopped asking. Do not rewrite the earlier record to match the later answer. An escalation that ends in silence remains open. In the agenda adherence queue, an item without a next action is treated as an exception."
+   },
+   {
+    "heading": "Analysis and reporting",
+    "body": "Record the agenda adherence close reason, the approver, and the surviving evidence reference in the same case note. A clean-looking status is not evidence that the underlying work is correct. The record should show the source, the decision, and the surviving value in one place. Do not mark complete until the check is repeatable by another reviewer. A case that moves between owners should keep both owner periods visible. The agenda adherence reviewer records approval, the owner, and the next action in one place. Name the owner for every open item, including items waiting on someone else. Do not mark complete until the check is repeatable by another reviewer. Do not let a deadline expand a role beyond its written limit. The agenda adherence close note cites the account record, the approver, and the time of the final check."
+   },
+   {
+    "heading": "Limitations",
+    "body": "Review agenda adherence with a sample drawn from the queue export before the meeting, so the discussion cannot drift to memorable cases. A short written rule is easier to test than an unwritten habit. Use case-level review to explain an outlier before calling it a trend. Do not let a deadline expand a role beyond its written limit. Keep the original request so a later correction does not erase the reason for the work. Every agenda adherence handoff names the account manager and the field in the account record that will confirm the change. Choose the sample from the export before the meeting. Use the same definition across the queue and the review so the counts agree. If the team cannot reproduce the result from the record, the control is not finished. A sample agenda adherence review checks agenda draft, attendee list, and the surviving value in the account record."
+   },
+   {
+    "heading": "Review and next action",
+    "body": "The agenda adherence working paper should show the request, the source, the decision, the action, and the surviving value without a private inbox. A clean-looking status is not evidence that the underlying work is correct. Make the handoff readable by the next shift and the next auditor. Use the approved repository for sensitive content. Write the note so a reviewer can reconstruct the decision without a meeting. For agenda adherence, compare agenda draft with the destination value rather than relying on a status label. Name the owner and the date beside each decision. A short written rule is easier to test than an unwritten habit. The next reviewer should not have to ask which document is authoritative. In this agenda adherence case, the record points to the account record and names the account manager as the decision owner."
+   }
+  ],
+  "sources": [
+   {
+    "label": "U.S. Department of Labor",
+    "url": "https://www.dol.gov/"
+   },
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ]
+ },
+ {
+  "slug": "vam04-success-plan-milestone-closure",
+  "title": "Success plan milestone closure",
+  "cluster": "Account operations",
+  "excerpt": "A bounded protocol for success plan closure in account management.",
+  "thumbnail": "/daily04/virtualaccountmanager/vam04-success-plan-milestone-closure.webp",
+  "date": "2026-11-03",
+  "publishedAt": "2026-11-03",
+  "visibleDate": "November 4, 2026",
+  "question": "Where does success plan closure lose time or evidence in the account record?",
+  "method": "Case-level record review with a frozen window, a defined unit, and a second-reviewer reproduction check.",
+  "findings": [
+   "success plan closure is measurable from the account record when the owner and close event are stored.",
+   "Missing evidence is usually an intake or routing gap.",
+   "One testable change and a re-measure date are the useful output."
+  ],
+  "sections": [
+   {
+    "heading": "Question and decision scope",
+    "body": "Start success plan closure with one bounded case, a named owner, and a written statement of what the reviewer is being asked to decide. Name the trigger that brought the case into the queue. A short written rule is easier to test than an unwritten habit. State explicitly what is in scope and what is out of scope for the case. If the team cannot reproduce the result from the record, the control is not finished. For success plan closure, compare success plan with the destination value rather than relying on a status label. Name the trigger that brought the case into the queue. State explicitly what is in scope and what is out of scope for the case. Do not let a deadline expand a role beyond its written limit. In this success plan closure case, the record points to the account record and names the account manager as the decision owner."
+   },
+   {
+    "heading": "Population and unit",
+    "body": "A reviewer should be able to rebuild success plan closure from client evidence, acceptance, and the the account record record without asking for a private screenshot. Name the repository where sensitive evidence is held. Do not let a deadline expand a role beyond its written limit. The record should show the source, the decision, and the surviving value in one place. Do not treat a screenshot as a substitute for the system record. The success plan closure record should let a second reviewer rebuild the decision from milestone record and client evidence. A clean-looking status is not evidence that the underlying work is correct. Compare the source and the destination values before drawing a conclusion. Record the export time beside any value taken from a system. For success plan closure, the working file keeps success plan and milestone record beside the decision note."
+   },
+   {
+    "heading": "Definitions and measures",
+    "body": "A standing instruction for success plan closure needs a limit and an expiry, and the the account manager should confirm it is still current. Use the same definition across the queue and the review so the counts agree. The next reviewer should not have to ask which document is authoritative. A clean-looking status is not evidence that the underlying work is correct. Record rejected and deferred requests as well as approvals. A success plan closure exception keeps acceptance attached and routes the question to the account manager. Preparation, comparison, and follow-up may sit with the assistant. Write the authority limit into the case template. When urgency presses against the limit, pause and route the decision. The success plan closure case note should show what the account record held at the time and who reviewed it."
+   },
+   {
+    "heading": "Evidence dictionary",
+    "body": "The daily success plan closure pass starts with the oldest item, the unassigned handoff, and the case paused for more than two business days. Keep the original request so a later correction does not erase the reason for the work. A clean-looking status is not evidence that the underlying work is correct. Check that the owner is actually available before assigning. Compare arrivals and completions, not only the backlog total. In the success plan closure queue, an item without a next action is treated as an exception. A case with no next action is an exception even if it says in progress. Keep the queue view readable on one screen. Escalate an item that has waited past the written threshold. Apply the same success plan closure test to client evidence and to the value that survives in the account record."
+   },
+   {
+    "heading": "Sampling and collection",
+    "body": "The success plan closure exception record should name the condition, the decision, the releaser, and the time the dependent action resumed. Record the stop reason and the release decision together. Name the owner for every open item, including items waiting on someone else. Do not close a case just because the requester stopped asking. The record should show the source, the decision, and the surviving value in one place. The success plan closure close note cites the account record, the approver, and the time of the final check. Name the owner for every open item, including items waiting on someone else. Record who released the dependent action and when. Do not rewrite the earlier record to match the later answer. The success plan closure reviewer records acceptance, the owner, and the next action in one place."
+   },
+   {
+    "heading": "Analysis and reporting",
+    "body": "If success plan closure hands work to another team, keep it open until that team acknowledges receipt and the surviving record is confirmed. Compare the destination field, not only the activity log. Verify that the surviving record is the one downstream teams will use. Record the approximate value, the approver, and the final check time. The next reviewer should not have to ask which document is authoritative. A sample success plan closure review checks success plan, milestone record, and the surviving value in the account record. Record the approximate value, the approver, and the final check time. A clean-looking status is not evidence that the underlying work is correct. Verify that the surviving record is the one downstream teams will use. Every success plan closure handoff names the account manager and the field in the account record that will confirm the change."
+   },
+   {
+    "heading": "Limitations",
+    "body": "A useful success plan closure review ends with one testable change, one owner, and a date to measure whether the change moved the result. Use case-level review to explain an outlier before calling it a trend. End the review with one change and one measure. Keep the original request so a later correction does not erase the reason for the work. The next reviewer should not have to ask which document is authoritative. In this success plan closure case, the record points to the account record and names the account manager as the decision owner. A stable total can hide a growing tail. Keep the prior procedure available for comparison. Set the next review date before the action begins. For success plan closure, compare success plan with the destination value rather than relying on a status label."
+   },
+   {
+    "heading": "Review and next action",
+    "body": "Keep the success plan closure record short enough to read during the day and specific enough to survive a later audit. Link the evidence to the exact field it supports. Archive the extract with the study so it can be repeated. A case that moves between owners should keep both owner periods visible. The next reviewer should not have to ask which document is authoritative. For success plan closure, the working file keeps success plan and milestone record beside the decision note. Do not let a deadline expand a role beyond its written limit. A case that moves between owners should keep both owner periods visible. A short written rule is easier to test than an unwritten habit. The success plan closure record should let a second reviewer rebuild the decision from milestone record and client evidence."
+   }
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ]
  }
 ];

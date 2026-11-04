@@ -23,8 +23,8 @@ export const metadata = {
 const articles = [
   ...november03Blog.map((x) => ({
     ...x,
-    published: november03Date,
-    label: "November 3, 2026",
+    published: x.publishedAt,
+    label: x.visibleDate,
   })),
   ...november02Blog.map((x) => ({
     ...x,
