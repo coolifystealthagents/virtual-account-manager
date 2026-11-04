@@ -592,7 +592,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "renewal signature",
   "excerpt": "A practical renewal signature control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-verify-a-client-contract-renewal-signature-before-the-term-end.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
@@ -666,7 +666,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "escalation credit",
   "excerpt": "A practical escalation credit control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-control-a-client-escalation-credit.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
@@ -740,7 +740,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "stakeholder map update",
   "excerpt": "A practical stakeholder map update control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-handle-a-client-stakeholder-map-update.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
@@ -814,7 +814,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "report delivery log",
   "excerpt": "A practical report delivery log control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-keep-a-monthly-client-report-delivery-log.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
@@ -888,7 +888,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "client tool access review",
   "excerpt": "A practical client tool access review control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-track-a-client-tool-access-review.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
@@ -962,7 +962,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "client meeting agenda",
   "excerpt": "A practical client meeting agenda control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-standardize-a-client-meeting-agenda.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
@@ -1036,7 +1036,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "success plan milestone",
   "excerpt": "A practical success plan milestone control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-reconcile-a-client-success-plan-milestone.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
@@ -1110,7 +1110,7 @@ export const november03Blog: October15Blog[] = [
   "keyword": "churn risk flag",
   "excerpt": "A practical churn risk flag control for account management teams.",
   "thumbnail": "/daily04/virtualaccountmanager/vam04-audit-a-client-churn-risk-flag.webp",
-  "publishedAt": "2026-11-03",
+  "publishedAt": "2026-11-04",
   "visibleDate": "November 4, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
