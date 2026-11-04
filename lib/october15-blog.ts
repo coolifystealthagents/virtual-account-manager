@@ -1,5 +1,5 @@
 export const october15Date='2026-10-15';
-export type October15Blog={slug:string;title:string;category:string;keyword:string;excerpt:string;thumbnail:string;publishedAt:string;author:string;source:{label:string;url:string};internalLinks:{label:string;url:string}[];sections:{heading:string;body:string}[];checklist:string[];faq:{q:string;a:string}[]};
+export type October15Blog={slug:string;title:string;category:string;keyword:string;excerpt:string;thumbnail:string;publishedAt:string;author:string;source:{label:string;url:string};internalLinks:{label:string;url:string}[];sections:{heading:string;body:string}[];checklist:string[];faq:{q:string;a:string}[];visibleDate?:string};
 export const october15Blog:October15Blog[]=[
   {
     "slug": "sales-to-account-management-handoff",
