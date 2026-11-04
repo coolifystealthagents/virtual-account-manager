@@ -89,8 +89,7 @@ export default async function Blog({
       isOctober26 = october26Blog.some((x) => x.slug === slug),
       isOctober25 = october25Blog.some((x) => x.slug === slug),
       isOctober22 = october22Blog.some((x) => x.slug === slug),
-      published = isNovember03 ? november03Date : isNovember02 ? november02Date : isOctober27 ? october27Date : isOctober26 ? october26Date : isOctober25 ? october25Date : isOctober22 ? october22Date : isOctober16 ? october16Date : october15Date,
-      publishedLabel = current.visibleDate;
+      published = current.publishedAt, publishedLabel = current.visibleDate;
     const related = (isNovember03 ? november03Blog : isNovember02 ? november02Blog : isOctober27 ? october27Blog : isOctober26 ? october26Blog : isOctober25 ? october25Blog : isOctober22 ? october22Blog : isOctober16 ? october16Blog : october15Blog)
       .filter((x) => x.slug !== slug)
       .slice(0, 3);
