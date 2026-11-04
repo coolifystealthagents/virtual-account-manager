@@ -23,6 +23,7 @@ export type OctoberResearch = {
   findings: string[];
   sections: Section[];
   sources: { label: string; url: string }[];
+  visibleDate?: string;  publishedAt?: string;
 };
 
 export const octoberBlog: OctoberBlog[] = [

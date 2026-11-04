@@ -13,6 +13,7 @@ export type October16Blog = {
   sections: { heading: string; body: string }[];
   checklist: string[];
   faq: { q: string; a: string }[];
+  visibleDate?: string;
 };
 export const october16Blog: October16Blog[] = [
   {
