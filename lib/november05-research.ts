@@ -1,6 +1,7 @@
 import type { October13Research } from './october13';
 export const november05ResearchDate='2026-11-05';
-export const november05Research: October13Research[] = [
+type November05Research = October13Research & { date: string };
+export const november05Research: November05Research[] = [
  {
   "slug": "vam05-qbr-scheduling-readiness",
   "title": "QBR scheduling readiness",
