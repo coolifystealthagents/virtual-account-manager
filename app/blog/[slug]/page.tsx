@@ -16,6 +16,7 @@ import { october25Blog, october25Date } from "@/lib/october25-blog";
 import { october26Blog, october26Date } from "@/lib/october26-blog";
 import { october27Blog, october27Date } from "@/lib/october27-blog";
 import { november03Blog, november03Date } from "@/lib/november03-blog";
+import { november05Blog, november05Date } from "@/lib/november05-blog";
 import { november02Blog, november02Date } from "@/lib/november02-blog";
 import TocSync from "@/components/TocSync";
 
@@ -24,6 +25,7 @@ const octoberBlog = [...october13Blog, ...october12Blog];
 export function generateStaticParams() {
   return [
     ...november03Blog.map((x) => ({ slug: x.slug })),
+    ...november05Blog.map((x) => ({ slug: x.slug })),
     ...november02Blog.map((x) => ({ slug: x.slug })),
     ...october27Blog.map((x) => ({ slug: x.slug })),
     ...october26Blog.map((x) => ({ slug: x.slug })),
@@ -41,7 +43,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const fresh = [...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog, ...octoberBlog].find(
+  const fresh = [...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog, ...octoberBlog].find(
     (x) => x.slug === slug,
   );
   if (fresh)
@@ -78,7 +80,7 @@ export default async function Blog({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const current = [...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog].find(
+  const current = [...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog].find(
     (x) => x.slug === slug,
   );
   if (current) {

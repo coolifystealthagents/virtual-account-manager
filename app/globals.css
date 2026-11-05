@@ -793,3 +793,11 @@ body {
 
 /* Bound the sticky reading rail so long ToCs scroll internally. */
 .sidebar{max-height:calc(100vh - 130px);overflow-y:auto;overscroll-behavior:contain}
+.article-toc h2{font-size:1rem;line-height:1.3;margin:0 0 .6rem;letter-spacing:0}
+.article-toc a{font-size:.9rem;line-height:1.45}
+.article-card h3{font-size:1.5rem;line-height:1.22;letter-spacing:0}
+.article-card img{aspect-ratio:16/9;object-fit:cover;height:auto}
+
+.article-card h2{font-size:1.5rem;line-height:1.22;letter-spacing:0}
+.article-card img{aspect-ratio:16/9;object-fit:cover;height:auto}
+.library-page .featured-article h2{font-size:1.5rem;line-height:1.22}
