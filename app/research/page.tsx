@@ -6,6 +6,7 @@ import {october26Research,october26ResearchDate} from '@/lib/october26-research'
 import {october27Research,october27ResearchDate} from '@/lib/october27-research';
 import {november03Research,november03ResearchDate} from '@/lib/november03-research';
 import {november05Research,november05ResearchDate} from '@/lib/november05-research';
+import {november06Research,november06ResearchDate} from '@/lib/november06-research';
 import {november02Research,november02ResearchDate} from '@/lib/november02-research';
 import {october25Research,october25ResearchDate} from '@/lib/october25-research';
 import {october22Research,october22ResearchDate} from '@/lib/october22-research';
