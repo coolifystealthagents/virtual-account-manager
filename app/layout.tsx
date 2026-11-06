@@ -62,6 +62,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(website) }} />
         <Script id="acr-config" strategy="beforeInteractive" dangerouslySetInnerHTML={{ __html: tracker }} />
         <Script src="https://acrtracking.stealthagents.us/v1/tracker.js" strategy="afterInteractive" />
+        <Script
+          id="databull-analytics"
+          src="https://databull.stealthagents.us/js/script.js"
+          data-website-id="dc_iro0nb784r4i4t"
+          data-domain="virtualaccountmanager.com"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );
