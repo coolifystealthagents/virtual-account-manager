@@ -2,7 +2,7 @@ export const october13Date = '2026-10-13';
 
 type Section = { heading: string; body: string };
 export type October13Blog = { slug:string; title:string; category:string; excerpt:string; thumbnail:string; sections:Section[]; checklist:string[] };
-export type October13Research = { slug:string; title:string; cluster:string; excerpt:string; thumbnail:string; question:string; method:string; findings:string[]; sections:Section[]; sources:{label:string;url:string}[];publishedAt?:string;visibleDate?:string };
+export type October13Research = { date?:string; slug:string; title:string; cluster:string; excerpt:string; thumbnail:string; question:string; method:string; findings:string[]; sections:Section[]; sources:{label:string;url:string}[];publishedAt?:string;visibleDate?:string };
 
 export const october13Blog: October13Blog[] = [
   {
