@@ -68,7 +68,18 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a account plan update case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  },
  {
   "slug": "vam07-control-a-contract-renewal-calendar",
@@ -137,7 +148,18 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a contract renewal calendar case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  },
  {
   "slug": "vam07-reconcile-a-client-billing-discrepancy",
@@ -206,7 +228,18 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a client billing discrepancy case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  },
  {
   "slug": "vam07-track-a-client-escalation-action-item",
@@ -275,7 +308,18 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a escalation action item case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  },
  {
   "slug": "vam07-verify-a-quarterly-business-review-deck",
@@ -344,7 +388,18 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a quarterly business review deck case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  },
  {
   "slug": "vam07-control-a-client-contact-change",
@@ -413,7 +468,18 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a client contact change case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  },
  {
   "slug": "vam07-reconcile-a-discount-approval",
@@ -482,7 +548,18 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a discount approval case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  },
  {
   "slug": "vam07-verify-a-client-satisfaction-follow-up",
@@ -551,6 +628,17 @@ export const november07Blog: October15Blog[] = [
     "q": "What closes a client satisfaction follow-up case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "sources": [
+   {
+    "label": "GAO — internal control standards",
+    "url": "https://www.gao.gov/greenbook"
+   },
+   {
+    "label": "U.S. Small Business Administration — manage your business",
+    "url": "https://www.sba.gov/business-guide/manage-your-business"
+   }
+  ],
+  "visibleDate": "November 7, 2026"
  }
 ];
