@@ -16,7 +16,7 @@ import { october27Blog, october27Date } from "@/lib/october27-blog";
 import { november03Blog, november03Date } from "@/lib/november03-blog";
 import { november05Blog, november05Date } from "@/lib/november05-blog";
 import { november06Blog, november06Date } from "@/lib/november06-blog";
-import { november07Blog, november05Date } from "@/lib/november07-blog";
+import { november07Blog, november07Date } from "@/lib/november07-blog";
 import { november02Blog, november02Date } from "@/lib/november02-blog";
 export const metadata = {
   title: "Blogs and practical insights",
