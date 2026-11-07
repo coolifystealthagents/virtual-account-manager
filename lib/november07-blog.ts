@@ -18,6 +18,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
@@ -98,6 +102,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
@@ -178,6 +186,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
@@ -258,6 +270,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
@@ -338,6 +354,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
@@ -418,6 +438,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
@@ -498,6 +522,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
@@ -578,6 +606,10 @@ export const november07Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Client account research",
+    "url": "/research"
    }
   ],
   "sections": [
