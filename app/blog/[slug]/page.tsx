@@ -18,6 +18,7 @@ import { october27Blog, october27Date } from "@/lib/october27-blog";
 import { november03Blog, november03Date } from "@/lib/november03-blog";
 import { november05Blog, november05Date } from "@/lib/november05-blog";
 import { november06Blog, november06Date } from "@/lib/november06-blog";
+import { november07Blog, november05Date } from "@/lib/november07-blog";
 import { november02Blog, november02Date } from "@/lib/november02-blog";
 import TocSync from "@/components/TocSync";
 
@@ -28,6 +29,7 @@ export function generateStaticParams() {
     ...november03Blog.map((x) => ({ slug: x.slug })),
     ...november05Blog.map((x) => ({ slug: x.slug })),
     ...november06Blog.map((x) => ({ slug: x.slug })),
+    ...november07Blog.map((x) => ({ slug: x.slug })),
     ...november02Blog.map((x) => ({ slug: x.slug })),
     ...october27Blog.map((x) => ({ slug: x.slug })),
     ...october26Blog.map((x) => ({ slug: x.slug })),

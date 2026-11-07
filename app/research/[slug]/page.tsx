@@ -13,6 +13,7 @@ import {october27Research,october27ResearchDate} from '@/lib/october27-research'
 import {november03Research,november03ResearchDate} from '@/lib/november03-research';
 import {november05Research,november05ResearchDate} from '@/lib/november05-research';
 import {november06Research,november06ResearchDate} from '@/lib/november06-research';
+import {november07Research,november07ResearchDate} from '@/lib/november07-research';
 import {november02Research,november02ResearchDate} from '@/lib/november02-research';
 import TocSync from '@/components/TocSync';
 
