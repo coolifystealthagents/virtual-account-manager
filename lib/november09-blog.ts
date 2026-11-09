@@ -9,7 +9,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical client onboarding checklist control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-verify-a-client-onboarding-checklist.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -19,6 +19,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -79,7 +83,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical client meeting action log control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-control-a-client-meeting-action-log.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -89,6 +93,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -149,7 +157,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical pass-through expense invoice control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-reconcile-a-pass-through-expense-invoice.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -159,6 +167,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -219,7 +231,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical client data deletion request control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-track-a-client-data-deletion-request.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -229,6 +241,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -289,7 +305,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical account forecast control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-verify-a-quarterly-account-forecast.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -299,6 +315,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -359,7 +379,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical contract amendment control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-control-a-client-contract-amendment.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -369,6 +389,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -429,7 +453,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical volume rebate control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-reconcile-a-client-volume-rebate.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -439,6 +463,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -499,7 +527,7 @@ export const november09Blog: October15Blog[] = [
   "excerpt": "A practical security questionnaire response control for account management teams, with a named source, an accountable owner, and a reviewable close.",
   "thumbnail": "/daily09/virtualaccountmanager/vam09-verify-a-client-security-questionnaire-response.webp",
   "publishedAt": "2026-11-09",
-   "visibleDate": "November 9, 2026",
+  "visibleDate": "November 9, 2026",
   "author": "Virtual Account Manager Editorial Team",
   "source": {
    "label": "GAO — internal control standards",
@@ -509,6 +537,10 @@ export const november09Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
