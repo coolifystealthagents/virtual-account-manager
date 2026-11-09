@@ -18,6 +18,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -68,7 +72,8 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a renewal price change notice case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  },
  {
   "slug": "vam08-control-an-account-team-handoff-memo",
@@ -87,6 +92,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -137,7 +146,8 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a account team handoff case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  },
  {
   "slug": "vam08-reconcile-a-client-travel-reimbursement",
@@ -156,6 +166,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -206,7 +220,8 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a client travel reimbursement case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  },
  {
   "slug": "vam08-track-a-client-service-credit-request",
@@ -225,6 +240,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -275,7 +294,8 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a service credit request case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  },
  {
   "slug": "vam08-verify-a-client-data-access-review",
@@ -294,6 +314,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -344,7 +368,8 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a client data access review case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  },
  {
   "slug": "vam08-control-an-account-health-score-change",
@@ -363,6 +388,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -413,7 +442,8 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a account health score change case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  },
  {
   "slug": "vam08-reconcile-a-retained-hours-balance",
@@ -432,6 +462,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -482,7 +516,8 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a retained hours balance case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  },
  {
   "slug": "vam08-verify-a-client-reference-call-brief",
@@ -501,6 +536,10 @@ export const november08Blog: October15Blog[] = [
    {
     "label": "Account management services",
     "url": "/services"
+   },
+   {
+    "label": "Contact us",
+    "url": "/contact-us"
    }
   ],
   "sections": [
@@ -551,6 +590,7 @@ export const november08Blog: October15Blog[] = [
     "q": "What closes a reference call brief case?",
     "a": "A named owner, the source record, the decision, and the confirmed destination value."
    }
-  ]
+  ],
+  "visibleDate": "November 8, 2026"
  }
 ];
