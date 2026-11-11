@@ -16,11 +16,12 @@ import {november06Research,november06ResearchDate} from '@/lib/november06-resear
 import {november07Research,november07ResearchDate} from '@/lib/november07-research';
 import {november08Research,november08ResearchDate} from '@/lib/november08-research';
 import {november10Research,november10ResearchDate} from '@/lib/november10-research';
+import {november11Research,november11ResearchDate} from '@/lib/november11-research';
 import {november09Research,november09ResearchDate} from '@/lib/november09-research';
 import {november02Research,november02ResearchDate} from '@/lib/november02-research';
 import TocSync from '@/components/TocSync';
 
-const octoberResearch=[...november10Research,...november09Research, ...november08Research, ...november07Research, ...november06Research, ...november05Research,...november03Research,...november02Research,...october27Research,...october26Research,...october25Research,...october22Research,...october15Research,...october13Research,...october12Research];
+const octoberResearch=[...november11Research,...november10Research,...november09Research, ...november08Research, ...november07Research, ...november06Research, ...november05Research,...november03Research,...november02Research,...october27Research,...october26Research,...october25Research,...october22Research,...october15Research,...october13Research,...october12Research];
 
 export function generateStaticParams(){return [...octoberResearch.map(x=>({slug:x.slug})),...site.research.map(x=>({slug:x.slug}))]}
 export async function generateMetadata({params}:{params:Promise<{slug:string}>}){const {slug}=await params;const fresh=octoberResearch.find(x=>x.slug===slug);if(fresh)return {title:fresh.title,description:fresh.excerpt,alternates:{canonical:'/research/'+slug},openGraph:{type:'article',title:fresh.title,description:fresh.excerpt,images:[fresh.thumbnail]}};const old=site.research.find(x=>x.slug===slug);return old?{title:old.title,description:old.excerpt,alternates:{canonical:'/research/'+slug}}:{}}
