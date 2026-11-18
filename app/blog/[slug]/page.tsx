@@ -25,6 +25,7 @@ import { november11Blog, november11Date } from "@/lib/november11-blog";
 import { november12Blog, november12Date } from "@/lib/november12-blog";
 import { november16Blog, november16Date } from "@/lib/november16-blog";
 import { november17Blog, november17Date } from "@/lib/november17-blog";
+import { november18Blog, november18Date } from "@/lib/november18-blog";
 import { november09Blog, november09Date } from "@/lib/november09-blog";
 import { november02Blog, november02Date } from "@/lib/november02-blog";
 import TocSync from "@/components/TocSync";
@@ -37,6 +38,7 @@ export function generateStaticParams() {
     ...november05Blog.map((x) => ({ slug: x.slug })),
     ...november06Blog.map((x) => ({ slug: x.slug })),
     ...november10Blog.map((x) => ({ slug: x.slug })),
+    ...november18Blog.map((x) => ({ slug: x.slug })),
     ...november17Blog.map((x) => ({ slug: x.slug })),
     ...november16Blog.map((x) => ({ slug: x.slug })),
     ...november12Blog.map((x) => ({ slug: x.slug })),
@@ -61,7 +63,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const fresh = [...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog, ...octoberBlog].find(
+  const fresh = [...november18Blog, ...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog, ...octoberBlog].find(
     (x) => x.slug === slug,
   );
   if (fresh)
@@ -98,11 +100,12 @@ export default async function Blog({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const current = [...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog].find(
+  const current = [...november18Blog, ...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog].find(
     (x) => x.slug === slug,
   );
   if (current) {
-    const isNovember17 = november17Blog.some((x) => x.slug === slug),
+    const isNovember18 = november18Blog.some((x) => x.slug === slug),
+      isNovember17 = november17Blog.some((x) => x.slug === slug),
       isNovember16 = november16Blog.some((x) => x.slug === slug),
       isNovember12 = november12Blog.some((x) => x.slug === slug),
       isNovember11 = november11Blog.some((x) => x.slug === slug),
@@ -115,7 +118,7 @@ export default async function Blog({
       isOctober25 = october25Blog.some((x) => x.slug === slug),
       isOctober22 = october22Blog.some((x) => x.slug === slug),
       published = current.publishedAt, publishedLabel = current.visibleDate;
-    const related = (isNovember17 ? november17Blog : isNovember16 ? november16Blog : isNovember12 ? november12Blog : isNovember11 ? november11Blog : isNovember10 ? november10Blog : isNovember03 ? november03Blog : isNovember02 ? november02Blog : isOctober27 ? october27Blog : isOctober26 ? october26Blog : isOctober25 ? october25Blog : isOctober22 ? october22Blog : isOctober16 ? october16Blog : october15Blog)
+    const related = (isNovember18 ? november18Blog : isNovember17 ? november17Blog : isNovember16 ? november16Blog : isNovember12 ? november12Blog : isNovember11 ? november11Blog : isNovember10 ? november10Blog : isNovember03 ? november03Blog : isNovember02 ? november02Blog : isOctober27 ? october27Blog : isOctober26 ? october26Blog : isOctober25 ? october25Blog : isOctober22 ? october22Blog : isOctober16 ? october16Blog : october15Blog)
       .filter((x) => x.slug !== slug)
       .slice(0, 3);
     const schema = {
