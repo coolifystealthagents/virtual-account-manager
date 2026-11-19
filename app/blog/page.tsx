@@ -24,6 +24,7 @@ import { november12Blog, november12Date } from "@/lib/november12-blog";
 import { november16Blog, november16Date } from "@/lib/november16-blog";
 import { november17Blog, november17Date } from "@/lib/november17-blog";
 import { november18Blog, november18Date } from "@/lib/november18-blog";
+import { november19Blog, november19Date } from "@/lib/november19-blog";
 import { november09Blog, november09Date } from "@/lib/november09-blog";
 import { november02Blog, november02Date } from "@/lib/november02-blog";
 export const metadata = {
@@ -31,7 +32,8 @@ export const metadata = {
   description: "Practical articles for " + site.audience + ".",
   alternates: { canonical: "/blog" },
 };
-const articles = [...november18Blog.map((x) => ({...x, published: november18Date, label: "November 18, 2026"})),
+const articles = [...november19Blog.map((x) => ({...x, published: november19Date, label: "November 19, 2026"})),
+  ...november18Blog.map((x) => ({...x, published: november18Date, label: "November 18, 2026"})),
   ...november17Blog.map((x) => ({...x, published: november17Date, label: "November 17, 2026"})),
   ...november16Blog.map((x) => ({...x, published: november16Date, label: "November 16, 2026"})),
   ...november12Blog.map((x) => ({...x, published: november12Date, label: "November 12, 2026"})),
