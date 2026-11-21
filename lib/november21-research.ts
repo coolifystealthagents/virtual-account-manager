@@ -2,11 +2,11 @@ import type { October13Research } from './october13';
 export const november21ResearchDate='2026-11-21';
 export const november21Research: October13Research[] = [
  {
-  "slug": "vam20-renewal-risk-notes-with-named-decision-owners",
+  "slug": "renewal-risk-notes-with-named-decision-owners",
   "title": "Renewal risk notes with named decision owners",
   "cluster": "Renewal research",
   "excerpt": "A bounded protocol for renewal risk notes with owners in account management, with a frozen population, an evidence sample, and a dated review.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-renewal-risk-notes-with-named-decision-owners.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/renewal-risk-notes-with-named-decision-owners.webp",
   "publishedAt": "2026-11-21",
   "date": "2026-11-21",
   "visibleDate": "November 21, 2026",
@@ -67,11 +67,11 @@ export const november21Research: October13Research[] = [
   ]
  },
  {
-  "slug": "vam20-workshop-actions-assigned-before-the-close",
+  "slug": "workshop-actions-assigned-before-the-close",
   "title": "Workshop actions assigned before the close",
   "cluster": "Workshop research",
   "excerpt": "A bounded protocol for workshop actions with owners in account management, with a frozen population, an evidence sample, and a dated review.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-workshop-actions-assigned-before-the-close.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/workshop-actions-assigned-before-the-close.webp",
   "publishedAt": "2026-11-21",
   "date": "2026-11-21",
   "visibleDate": "November 21, 2026",
@@ -132,11 +132,11 @@ export const november21Research: October13Research[] = [
   ]
  },
  {
-  "slug": "vam20-invoice-queries-matched-to-the-statement-line",
+  "slug": "invoice-queries-matched-to-the-statement-line",
   "title": "Invoice queries matched to the statement line",
   "cluster": "Billing research",
   "excerpt": "A bounded protocol for queries matched to statements in account management, with a frozen population, an evidence sample, and a dated review.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-invoice-queries-matched-to-the-statement-line.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/invoice-queries-matched-to-the-statement-line.webp",
   "publishedAt": "2026-11-21",
   "date": "2026-11-21",
   "visibleDate": "November 21, 2026",
@@ -197,11 +197,11 @@ export const november21Research: October13Research[] = [
   ]
  },
  {
-  "slug": "vam20-account-plans-checked-on-the-scheduled-date",
+  "slug": "account-plans-checked-on-the-scheduled-date",
   "title": "Account plans checked on the scheduled date",
   "cluster": "Account research",
   "excerpt": "A bounded protocol for plans reviewed on schedule in account management, with a frozen population, an evidence sample, and a dated review.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-account-plans-checked-on-the-scheduled-date.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/account-plans-checked-on-the-scheduled-date.webp",
   "publishedAt": "2026-11-21",
   "date": "2026-11-21",
   "visibleDate": "November 21, 2026",
@@ -262,11 +262,11 @@ export const november21Research: October13Research[] = [
   ]
  },
  {
-  "slug": "vam20-stakeholder-maps-updated-after-client-reorgs",
+  "slug": "stakeholder-maps-updated-after-client-reorgs",
   "title": "Stakeholder maps updated after client reorgs",
   "cluster": "Account research",
   "excerpt": "A bounded protocol for maps updated after reorgs in account management, with a frozen population, an evidence sample, and a dated review.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-stakeholder-maps-updated-after-client-reorgs.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/stakeholder-maps-updated-after-client-reorgs.webp",
   "publishedAt": "2026-11-21",
   "date": "2026-11-21",
   "visibleDate": "November 21, 2026",
@@ -327,11 +327,11 @@ export const november21Research: October13Research[] = [
   ]
  },
  {
-  "slug": "vam20-service-reviews-with-the-client-issue-owner-present",
+  "slug": "service-reviews-with-the-client-issue-owner-present",
   "title": "Service reviews with the client issue owner present",
   "cluster": "Service research",
   "excerpt": "A bounded protocol for reviews with the issue owner in account management, with a frozen population, an evidence sample, and a dated review.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-service-reviews-with-the-client-issue-owner-present.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/service-reviews-with-the-client-issue-owner-present.webp",
   "publishedAt": "2026-11-21",
   "date": "2026-11-21",
   "visibleDate": "November 21, 2026",
@@ -392,11 +392,11 @@ export const november21Research: October13Research[] = [
   ]
  },
  {
-  "slug": "vam20-survey-follow-ups-owned-and-dated",
+  "slug": "survey-follow-ups-owned-and-dated",
   "title": "Survey follow-ups owned and dated",
   "cluster": "Client research",
   "excerpt": "A bounded protocol for survey follow-ups with owners in account management, with a frozen population, an evidence sample, and a dated review.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-survey-follow-ups-owned-and-dated.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/survey-follow-ups-owned-and-dated.webp",
   "publishedAt": "2026-11-21",
   "date": "2026-11-21",
   "visibleDate": "November 21, 2026",

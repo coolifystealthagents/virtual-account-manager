@@ -2,12 +2,12 @@ import type { October15Blog } from './october15-blog';
 export const november21Date='2026-11-21';
 export const november21Blog: October15Blog[] = [
  {
-  "slug": "vam20-review-a-client-contract-renewal-risk-note",
+  "slug": "review-a-client-contract-renewal-risk-note",
   "title": "Review a client contract renewal risk note",
   "category": "Renewal operations",
   "keyword": "renewal risk note",
   "excerpt": "A bounded renewal risk note control for account management teams, with a named source, an accountable owner, and a reviewable close in the renewal tracker.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-review-a-client-contract-renewal-risk-note.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/review-a-client-contract-renewal-risk-note.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
@@ -80,12 +80,12 @@ export const november21Blog: October15Blog[] = [
   ]
  },
  {
-  "slug": "vam20-track-an-account-workshop-follow-up-owner",
+  "slug": "track-an-account-workshop-follow-up-owner",
   "title": "Track an account workshop follow-up owner",
   "category": "Workshops",
   "keyword": "workshop follow-up owner",
   "excerpt": "A bounded workshop follow-up owner control for account management teams, with a named source, an accountable owner, and a reviewable close in the workshop notes.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-track-an-account-workshop-follow-up-owner.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/track-an-account-workshop-follow-up-owner.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
@@ -158,12 +158,12 @@ export const november21Blog: October15Blog[] = [
   ]
  },
  {
-  "slug": "vam20-check-a-client-invoice-query-against-the-statement",
+  "slug": "check-a-client-invoice-query-against-the-statement",
   "title": "Check a client invoice query against the statement",
   "category": "Billing support",
   "keyword": "invoice query check",
   "excerpt": "A bounded invoice query check control for account management teams, with a named source, an accountable owner, and a reviewable close in the billing log.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-check-a-client-invoice-query-against-the-statement.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/check-a-client-invoice-query-against-the-statement.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
@@ -236,12 +236,12 @@ export const november21Blog: October15Blog[] = [
   ]
  },
  {
-  "slug": "vam20-set-a-quarterly-account-plan-review-date",
+  "slug": "set-a-quarterly-account-plan-review-date",
   "title": "Set a quarterly account plan review date",
   "category": "Account planning",
   "keyword": "account plan review date",
   "excerpt": "A bounded account plan review date control for account management teams, with a named source, an accountable owner, and a reviewable close in the account plan.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-set-a-quarterly-account-plan-review-date.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/set-a-quarterly-account-plan-review-date.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
@@ -314,12 +314,12 @@ export const november21Blog: October15Blog[] = [
   ]
  },
  {
-  "slug": "vam20-review-a-stakeholder-map-change-after-a-client-reorg",
+  "slug": "review-a-stakeholder-map-change-after-a-client-reorg",
   "title": "Review a stakeholder map change after a client reorg",
   "category": "Account planning",
   "keyword": "stakeholder map change",
   "excerpt": "A bounded stakeholder map change control for account management teams, with a named source, an accountable owner, and a reviewable close in the stakeholder map.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-review-a-stakeholder-map-change-after-a-client-reorg.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/review-a-stakeholder-map-change-after-a-client-reorg.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
@@ -392,12 +392,12 @@ export const november21Blog: October15Blog[] = [
   ]
  },
  {
-  "slug": "vam20-audit-a-service-review-meeting-attendance-list",
+  "slug": "audit-a-service-review-meeting-attendance-list",
   "title": "Audit a service review meeting attendance list",
   "category": "Service reviews",
   "keyword": "service review attendance",
   "excerpt": "A bounded service review attendance control for account management teams, with a named source, an accountable owner, and a reviewable close in the service review notes.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-audit-a-service-review-meeting-attendance-list.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/audit-a-service-review-meeting-attendance-list.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
@@ -470,12 +470,12 @@ export const november21Blog: October15Blog[] = [
   ]
  },
  {
-  "slug": "vam20-track-a-client-satisfaction-survey-follow-up",
+  "slug": "track-a-client-satisfaction-survey-follow-up",
   "title": "Track a client satisfaction survey follow-up",
   "category": "Client experience",
   "keyword": "survey follow-up",
   "excerpt": "A bounded survey follow-up control for account management teams, with a named source, an accountable owner, and a reviewable close in the survey file.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-track-a-client-satisfaction-survey-follow-up.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/track-a-client-satisfaction-survey-follow-up.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
@@ -548,12 +548,12 @@ export const november21Blog: October15Blog[] = [
   ]
  },
  {
-  "slug": "vam20-check-an-account-escalation-summary-before-the-executive-call",
+  "slug": "check-an-account-escalation-summary-before-the-executive-call",
   "title": "Check an account escalation summary before the executive call",
   "category": "Governance",
   "keyword": "escalation summary",
   "excerpt": "A bounded escalation summary control for account management teams, with a named source, an accountable owner, and a reviewable close in the escalation register.",
-  "thumbnail": "/daily21/virtualaccountmanager/vam20-check-an-account-escalation-summary-before-the-executive-call.webp",
+  "thumbnail": "/daily21/virtualaccountmanager/check-an-account-escalation-summary-before-the-executive-call.webp",
   "publishedAt": "2026-11-21",
   "visibleDate": "November 21, 2026",
   "author": "Virtual Account Manager Editorial Team",
