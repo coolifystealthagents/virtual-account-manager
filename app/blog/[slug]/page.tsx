@@ -113,7 +113,7 @@ export default async function Blog({
   );
   if (current) {
     const isNovember22 = november22Blog.some((x) => x.slug === slug),
-    const isNovember21 = november21Blog.some((x) => x.slug === slug),
+    isNovember21 = november21Blog.some((x) => x.slug === slug),
     isNovember20 = november20Blog.some((x) => x.slug === slug),
       isNovember19 = november19Blog.some((x) => x.slug === slug),
       isNovember18 = november18Blog.some((x) => x.slug === slug),
