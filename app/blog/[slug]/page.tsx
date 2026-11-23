@@ -27,6 +27,7 @@ import { november16Blog, november16Date } from "@/lib/november16-blog";
 import { november17Blog, november17Date } from "@/lib/november17-blog";
 import { november18Blog, november18Date } from "@/lib/november18-blog";
 import { november19Blog, november19Date } from "@/lib/november19-blog";
+import { november22Blog, november22Date } from "@/lib/november22-blog";
 import { november21Blog, november21Date } from "@/lib/november21-blog";
 import { november20Blog, november20Date } from "@/lib/november20-blog";
 import { november09Blog, november09Date } from "@/lib/november09-blog";
@@ -41,6 +42,7 @@ export function generateStaticParams() {
     ...november05Blog.map((x) => ({ slug: x.slug })),
     ...november06Blog.map((x) => ({ slug: x.slug })),
     ...november10Blog.map((x) => ({ slug: x.slug })),
+    ...november22Blog.map((x) => ({ slug: x.slug })),
     ...november21Blog.map((x) => ({ slug: x.slug })),
     ...november20Blog.map((x) => ({ slug: x.slug })),
     ...november19Blog.map((x) => ({ slug: x.slug })),
@@ -69,7 +71,7 @@ export async function generateMetadata({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const fresh = [...november21Blog, ...november20Blog, ...november19Blog, ...november18Blog, ...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog, ...octoberBlog].find(
+  const fresh = [...november22Blog, ...november21Blog, ...november20Blog, ...november19Blog, ...november18Blog, ...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog, ...octoberBlog].find(
     (x) => x.slug === slug,
   );
   if (fresh)
@@ -106,10 +108,11 @@ export default async function Blog({
   params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
-  const current = [...november21Blog, ...november20Blog, ...november19Blog, ...november18Blog, ...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog].find(
+  const current = [...november22Blog, ...november21Blog, ...november20Blog, ...november19Blog, ...november18Blog, ...november17Blog, ...november16Blog, ...november12Blog, ...november11Blog, ...november10Blog, ...november09Blog, ...november08Blog, ...november07Blog, ...november06Blog, ...november05Blog, ...november03Blog, ...november02Blog, ...october27Blog, ...october26Blog, ...october25Blog, ...october22Blog, ...october16Blog, ...october15Blog].find(
     (x) => x.slug === slug,
   );
   if (current) {
+    const isNovember22 = november22Blog.some((x) => x.slug === slug),
     const isNovember21 = november21Blog.some((x) => x.slug === slug),
     isNovember20 = november20Blog.some((x) => x.slug === slug),
       isNovember19 = november19Blog.some((x) => x.slug === slug),
@@ -127,7 +130,7 @@ export default async function Blog({
       isOctober25 = october25Blog.some((x) => x.slug === slug),
       isOctober22 = october22Blog.some((x) => x.slug === slug),
       published = current.publishedAt, publishedLabel = current.visibleDate;
-    const related = (isNovember21 ? november21Blog : isNovember20 ? november20Blog : isNovember19 ? november19Blog : isNovember18 ? november18Blog : isNovember17 ? november17Blog : isNovember16 ? november16Blog : isNovember12 ? november12Blog : isNovember11 ? november11Blog : isNovember10 ? november10Blog : isNovember03 ? november03Blog : isNovember02 ? november02Blog : isOctober27 ? october27Blog : isOctober26 ? october26Blog : isOctober25 ? october25Blog : isOctober22 ? october22Blog : isOctober16 ? october16Blog : october15Blog)
+    const related = (isNovember22 ? november22Blog : isNovember21 ? november21Blog : isNovember20 ? november20Blog : isNovember19 ? november19Blog : isNovember18 ? november18Blog : isNovember17 ? november17Blog : isNovember16 ? november16Blog : isNovember12 ? november12Blog : isNovember11 ? november11Blog : isNovember10 ? november10Blog : isNovember03 ? november03Blog : isNovember02 ? november02Blog : isOctober27 ? october27Blog : isOctober26 ? october26Blog : isOctober25 ? october25Blog : isOctober22 ? october22Blog : isOctober16 ? october16Blog : october15Blog)
       .filter((x) => x.slug !== slug)
       .slice(0, 3);
     const schema = {
