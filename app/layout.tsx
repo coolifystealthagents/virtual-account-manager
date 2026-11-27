@@ -7,6 +7,8 @@ import { site } from '@/lib/site';
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
+import "./site-chrome-fixes.css";
+
 const displayFont = Baloo_2({ subsets: ['latin'], variable: '--font-display', display: 'swap' });
 const tallFont = Oswald({ subsets: ['latin'], variable: '--font-tall', display: 'swap' });
 const bodyFont = Inter({ subsets: ['latin'], variable: '--font-body', display: 'swap' });
